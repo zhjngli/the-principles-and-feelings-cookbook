@@ -9,8 +9,7 @@ export default class Contact extends React.Component {
     return (
       <Layout>
         <SEO title="contact" path="/contact" />
-        <p>Let&apos;s create something!</p>
-        <p>Please fill out the form below for any inquiries.</p>
+        <p>Curious or intrigued enough to have a chat? Fill out this form!</p>
         <Form />
       </Layout>
     );

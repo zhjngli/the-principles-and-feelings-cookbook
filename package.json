@@ -1,12 +1,13 @@
 {
-  "name": "ts-blog",
+  "name": "the-principles-and-feelings-cookbook",
   "version": "1.0.0",
   "private": true,
-  "description": "blog",
+  "description": "the principles and feelings cookbook",
   "author": "Zhijiang Li <zl256@cornell.edu>",
   "keywords": [
     "zhijiang li",
-    "blog"
+    "cookbook",
+    "principles and feelings"
   ],
   "scripts": {
     "develop": "gatsby develop",

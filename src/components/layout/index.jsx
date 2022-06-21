@@ -26,7 +26,7 @@ export default function Layout({ children }) {
       <header {...styles.headerContainer}>
         <nav>
           <Link to={'/'} {...styles.title} activeClassName={styles.activeNavLink}>
-            ts-blog
+            cookbook
           </Link>
           <Link to={'/about'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             about

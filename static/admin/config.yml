@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: zhjngli/ts-blog-gatsby-starter
+  repo: zhjngli/the-principles-and-feelings-cookbook
   branch: main
 
 media_folder: static/assets

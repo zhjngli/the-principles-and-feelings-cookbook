@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: zhjngli/ts-blog-gatsby-starter
+  branch: main
+
+media_folder: static/assets
+public_folder: /assets
+publish_mode: editorial_workflow
+
+collections:
+  - name: 'Blog'
+    label: 'Post'
+    folder: 'posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+    media_folder: ''
+    public_folder: ''
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

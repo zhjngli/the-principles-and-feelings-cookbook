@@ -11,49 +11,47 @@ import { rhythm } from '../../theme/typography';
 export default {
   // top level container styles
   container: css({
-    maxWidth: `36rem`,
+    display: 'flex',
+    flexDirection: 'row',
+    maxWidth: `45rem`,
     margin: `0 auto`,
     padding: rhythm(1)
   }),
   // header styles
   headerContainer: css({
+    paddingRight: rhythm(3 / 2)
+  }),
+  navContainer: css({
     display: 'flex',
-    alignItems: 'baseline',
-    padding: `${rhythm(1)} ${rhythm(1)} ${rhythm(1)} 0`
+    flexDirection: 'column',
+    alignItems: 'end'
   }),
   title: css({
-    color: colors.header,
-    fontSize: `110%`,
-    fontWeight: 700,
-    letterSpacing: '0.07em',
-    textDecoration: 'none',
-    margin: `0 ${rhythm(1 / 2)} 0 0`,
-    borderBottom: `none`,
-    ':hover': {
-      color: colors.header,
-      borderBottom: `3px solid ${colors.linkHover}`
-    }
+    margin: `${rhythm(1)} ${rhythm(-1 / 4)} ${rhythm(1)} 0`
   }),
   navLink: css({
-    color: colors.header,
-    textDecoration: 'none',
-    fontSize: `110%`,
-    margin: `0 ${rhythm(1 / 2)}`,
-    borderBottom: `none`,
+    padding: `${rhythm(1 / 8)} 0`,
+    borderBottom: 0,
     ':hover': {
-      color: colors.header,
-      borderBottom: `3px solid ${colors.linkHover}`
+      borderBottom: 0,
+      color: colors.linkHover
     }
   }),
   activeNavLink: css({
-    borderBottom: `3px solid ${colors.linkHover}`
+    fontWeight: 800,
+    ':hover': {
+      color: colors.header
+    }
   }),
   // main styles
   mainContainer: css({
-    padding: `${rhythm(1)} 0`
+    marginTop: rhythm(3 / 2),
+    paddingTop: rhythm(3 / 2),
+    width: `100%`
   }),
   // footer styles
   footerContainer: css({
-    padding: `${rhythm(2)} 0`
+    padding: `${rhythm(2)} 0`,
+    fontSize: `80%`
   })
 };

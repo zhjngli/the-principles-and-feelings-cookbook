@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import Title from '../title';
 import styles from './style';
 
 export default function Layout({ children }) {
@@ -24,10 +25,10 @@ export default function Layout({ children }) {
         <meta name="description" content={`${md.description}`} />
       </Helmet>
       <header {...styles.headerContainer}>
-        <nav>
-          <Link to={'/'} {...styles.title} activeClassName={styles.activeNavLink}>
-            cookbook
-          </Link>
+        <nav {...styles.navContainer}>
+          <div {...styles.title}>
+            <Title />
+          </div>
           <Link to={'/about'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             about
           </Link>
@@ -37,10 +38,10 @@ export default function Layout({ children }) {
           <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             tags
           </Link>
+          <footer {...styles.footerContainer}>&copy; 2021.</footer>
         </nav>
       </header>
       <main {...styles.mainContainer}>{children}</main>
-      <footer {...styles.footerContainer}>&copy; 2021.</footer>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 const url = 'https://ts-blog.netlify.app';
-const title = 'blog';
-const description = "blog";
+const title = 'the principles and feelings cookbook';
+const description = "the principles and feelings cookbook";
 
 module.exports = {
   siteMetadata: {
@@ -21,7 +21,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: title,
-        short_name: `blog`,
+        short_name: `cookbook`,
         description: description,
         start_url: `/`,
         background_color: `#fff`,

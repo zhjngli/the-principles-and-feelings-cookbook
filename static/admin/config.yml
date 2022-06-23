@@ -8,11 +8,43 @@ public_folder: /assets
 publish_mode: editorial_workflow
 
 collections:
-  - name: 'Blog'
-    label: 'Post'
-    folder: 'posts'
+  - name: 'recipes'
+    label: 'recipe'
+    folder: 'recipes'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+    slug: '{{fields.slug}}'
+    media_folder: ''
+    public_folder: ''
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'principles'
+    label: 'principle'
+    folder: 'principles'
+    create: true
+    slug: '{{fields.slug}}'
+    media_folder: ''
+    public_folder: ''
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'techniques'
+    label: 'technique'
+    folder: 'techniques'
+    create: true
+    slug: '{{fields.slug}}'
     media_folder: ''
     public_folder: ''
     path: '{{slug}}/index'

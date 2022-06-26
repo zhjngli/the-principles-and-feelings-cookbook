@@ -47,7 +47,10 @@ export default {
   mainContainer: css({
     marginTop: rhythm(3 / 2),
     paddingTop: rhythm(3 / 2),
-    width: `100%`
+    // hack to make the width fill the allotted space only
+    // rehypeReact for some reason causes the container to match parent width
+    // 154.234px comes from header width + header padding
+    width: `calc(100% - 154.234px)`
   }),
   // footer styles
   footerContainer: css({

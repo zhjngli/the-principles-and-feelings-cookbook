@@ -63,7 +63,7 @@
     "react-helmet": "^6.1.0",
     "react-netlify-form": "^2.1.5",
     "react-typography": "^0.16.20",
-    "rehype-react": "^7.0.0",
+    "rehype-react": "^7.1.1",
     "typography": "^0.16.21"
   }
 }

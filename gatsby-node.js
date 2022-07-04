@@ -1,10 +1,10 @@
 const _ = require(`lodash`);
 const path = require('path');
 
-exports.createPages = ({ actions, graphql, reporter }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
-  return (result = graphql(`{
+  let result = await graphql(`{
     allMarkdownRemark (
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { fields: { category: { ne: "about" } } }
@@ -12,39 +12,105 @@ exports.createPages = ({ actions, graphql, reporter }) => {
       edges {
         node {
           fields {
-            slug
             category
           }
           frontmatter {
             tags
-            date(formatString: "YYYY-MM-DD")
-          }
-        }
-        next {
-          frontmatter {
-            title
-          }
-          fields {
-            slug
-          }
-        }
-        previous {
-          frontmatter {
-            title
-          }
-          fields {
-            slug
           }
         }
       }
     }
-  }`).then((result) => {
+  }`);
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
+
+  // gather all tags and categories
+  let tags = [];
+  let categories = [];
+  result.data.allMarkdownRemark.edges.forEach((edge) => {
+    if (_.get(edge, `node.frontmatter.tags`)) {
+      tags = tags.concat(edge.node.frontmatter.tags);
+    }
+    if (_.get(edge, `node.fields.category`)) {
+      categories.push(edge.node.fields.category);
+    }
+  });
+  tags = _.uniq(tags);
+  categories = _.uniq(categories);
+
+  // create tag pages
+  tags.forEach((tag) => {
+    const tagPath = `/tags/${_.kebabCase(tag)}/`;
+    createPage({
+      path: tagPath,
+      component: path.resolve(`src/templates/tag-page/index.jsx`),
+      context: {
+        slug: tagPath,
+        tag: tag
+      }
+    });
+  });
+
+  // create category pages
+  categories.forEach(async (category) => {
+    const categoryPath = `/${_.kebabCase(category)}/`;
+    createPage({
+      path: categoryPath,
+      component: path.resolve(`src/templates/category-page/index.jsx`),
+      context: {
+        slug: categoryPath,
+        category: category
+      }
+    });
+  });
+
+  // create post pages for each category
+  const categoryQueries = categories.map((category) => {
+    return graphql(`{
+      allMarkdownRemark (
+        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: { fields: { category: { eq: "${category}" } } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+              category
+            }
+            frontmatter {
+              tags
+              date(formatString: "YYYY-MM-DD")
+            }
+          }
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }`);
+  });
+  const categoryResults = await Promise.all(categoryQueries);
+  categoryResults.forEach((result) => {
     if (result.errors) {
       reporter.panicOnBuild(`Error while running GraphQL query.`);
       return;
     }
-
-    // create blog post pages
+  
     result.data.allMarkdownRemark.edges.forEach((edge) => {
       const node = edge.node;
       createPage({
@@ -57,47 +123,9 @@ exports.createPages = ({ actions, graphql, reporter }) => {
         }
       });
     });
+  });
 
-    // gather all tags and categories
-    let tags = [];
-    let categories = [];
-    result.data.allMarkdownRemark.edges.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags);
-      }
-      if (_.get(edge, `node.fields.category`)) {
-        categories.push(edge.node.fields.category);
-      }
-    });
-    tags = _.uniq(tags);
-    categories = _.uniq(categories);
-
-    // create tag pages
-    tags.forEach((tag) => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`;
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tag-page/index.jsx`),
-        context: {
-          slug: tagPath,
-          tag: tag
-        }
-      });
-    });
-
-    // create category pages
-    categories.forEach((category) => {
-      const categoryPath = `/${_.kebabCase(category)}/`;
-      createPage({
-        path: categoryPath,
-        component: path.resolve(`src/templates/category-page/index.jsx`),
-        context: {
-          slug: categoryPath,
-          category: category
-        }
-      });
-    });
-  }));
+  return null;
 };
 
 // Add custom url pathname for blog posts.

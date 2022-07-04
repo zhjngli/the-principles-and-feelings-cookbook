@@ -8,4 +8,4 @@ A poorly written, disorganized, and mostly useless cookbook. There will be no me
 1. Add a new collection to netlify cms
 1. Add a new link to the nav bar
 
-The `about` category is a one off category that is hidden from others, and manually read in the home page.
+The `about` category is a one off category that is hidden from others, and manually read in the home page. Any other one off categories should be excluded from the `gatsby-node` query which gets all posts.

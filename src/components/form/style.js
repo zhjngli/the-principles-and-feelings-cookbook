@@ -29,13 +29,13 @@ export default {
       {
         ...scale(-2 / 5),
         width: '100%',
-        backgroundColor: '#fafafa',
+        backgroundColor: colors.lightBackground,
         padding: `${rhythm(1 / 8)}`,
         border: `1px solid ${colors.body}`,
         borderRadius: '3px',
         resize: 'vertical',
         '&:focus': {
-          backgroundColor: `${colors.white}`,
+          backgroundColor: `${colors.whiteSmoke}`,
           outline: `${colors.header} auto 1px`
         }
       }

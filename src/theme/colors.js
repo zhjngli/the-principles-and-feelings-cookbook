@@ -8,8 +8,7 @@ export default {
   smoke: `hsla(0,0%,90%,1)`,
   whiteSmoke: `hsla(0,0%,98%,1)`,
   white: `#fff`,
-  linkHover: `#D70C0C`,
-  codeBackground: `#202020`,
-  codeHighlight: `#282828`,
-  codeHighlightLeftBorder: `#D70C0C`
+  background: '#f0ead6',
+  lightBackground: '#f5f3eb',
+  linkHover: `#D70C0C`
 };

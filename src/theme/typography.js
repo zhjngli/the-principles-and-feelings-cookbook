@@ -5,9 +5,9 @@ import colors from './colors';
 const baseFontSize = '16px';
 
 const options = {
-  scaleRatio: 3,
+  scaleRatio: 2,
   baseFontSize: baseFontSize,
-  baseLineHeight: 2,
+  baseLineHeight: 1.8,
   headerColor: `${colors.header}`,
   bodyColor: `${colors.body}`,
   headerWeight: 600,

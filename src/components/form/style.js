@@ -5,7 +5,6 @@ import { rhythm, scale } from '../../theme/typography';
 
 const formStyle = css({
   fontFamily: 'Open Sans, sans-serif',
-  fontSize: '14px',
   color: colors.body
 });
 
@@ -63,7 +62,7 @@ export default {
       borderRadius: '3px',
       backgroundColor: `${colors.header}`,
       color: `${colors.white}`,
-      padding: '6px 16px',
+      padding: '6px 16px 8px 16px',
 
       '&:hover': {
         backgroundColor: '#555'

@@ -5,7 +5,8 @@ import { rhythm, scale } from '../../theme/typography';
 
 export default {
   title: css({
-    marginBottom: rhythm(1 / 4)
+    marginBottom: rhythm(1 / 4),
+    fontVariant: 'normal'
   }),
   infoSection: css({
     ...scale(-1 / 4),

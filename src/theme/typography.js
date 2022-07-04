@@ -5,20 +5,22 @@ import colors from './colors';
 const baseFontSize = '16px';
 
 const options = {
-  scaleRatio: 1.5,
+  scaleRatio: 3,
   baseFontSize: baseFontSize,
-  baseLineHeight: 1.8,
+  baseLineHeight: 2,
   headerColor: `${colors.header}`,
   bodyColor: `${colors.body}`,
-  blockMarginBottom: 0.75,
   headerWeight: 600,
-  headerFontFamily: [`Noto Serif`, `serif`],
-  bodyFontFamily: [`Noto Serif`, `serif`],
+  headerFontFamily: [`Open Sans`, `sans-serif`],
+  bodyFontFamily: [`Open Sans`, `sans-serif`],
   // eslint-disable-next-line no-unused-vars
   overrideStyles: ({ rhythm, scale }, options) => {
     return {
       html: {
         backgroundColor: colors.background
+      },
+      'h1,h2,h3,h4,h5,h6': {
+        fontVariant: 'small-caps'
       },
       a: {
         color: colors.body,

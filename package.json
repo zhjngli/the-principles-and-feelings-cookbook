@@ -18,8 +18,8 @@
     "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
-    "@fontsource/hind-madurai": "^4.5.0",
-    "@fontsource/noto-serif": "^4.5.0",
+    "@fontsource/open-sans": "^4.5.10",
+    "@fontsource/yellowtail": "^4.5.7",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "eslint": "^7.32.0",
@@ -51,7 +51,6 @@
     "gatsby-transformer-remark": "^4.9.0",
     "gatsby-transformer-sharp": "^3.12.0",
     "glamor": "^2.20.40",
-    "hack-font": "^3.3.0",
     "lodash": "^4.17.21",
     "netlify-cms-app": "^2.15.38",
     "postcss": "^8.3.6",

@@ -4,11 +4,9 @@ import colors from '../../theme/colors';
 import { rhythm, scale } from '../../theme/typography';
 
 const formStyle = css({
-  fontFamily: 'Hind Madurai, sans-serif',
+  fontFamily: 'Open Sans, sans-serif',
   fontSize: '14px',
-  color: colors.body,
-  lineHeight: '1.8rem',
-  letterSpacing: '0.01rem'
+  color: colors.body
 });
 
 export default {
@@ -58,7 +56,6 @@ export default {
     {
       ...scale(2 / 5),
       fontVariant: 'small-caps',
-      fontWeight: '500',
       letterSpacing: '0.04em',
       cursor: 'pointer',
 

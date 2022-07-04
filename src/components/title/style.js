@@ -4,8 +4,9 @@ import { rhythm } from '../../theme/typography';
 
 export default {
   container: css({
-    fontSize: '110%',
-    fontWeight: 800,
+    fontFamily: 'Yellowtail, cursive',
+    fontSize: '200%',
+    lineHeight: 1.1,
     marginRight: rhythm(-9 / 32)
   }),
   line1: css({

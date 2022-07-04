@@ -70,9 +70,25 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: `${__dirname}/posts/`
+        path: `${__dirname}/writing/posts/`
       },
       __key: 'posts'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'recipes',
+        path: `${__dirname}/writing/recipes/`
+      },
+      __key: 'recipes'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'about',
+        path: `${__dirname}/writing/about/`
+      },
+      __key: 'about'
     },
     'gatsby-plugin-offline', // after manifest plugin
     {

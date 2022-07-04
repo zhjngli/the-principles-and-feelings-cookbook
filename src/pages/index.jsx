@@ -18,16 +18,6 @@ export default function Index({ data }) {
 export const pageQuery = graphql`
   query IndexQuery {
     markdownRemark(fields: { category: { eq: "about" } }) {
-      fields {
-        category
-        slug
-        tagSlugs
-      }
-      frontmatter {
-        date
-        tags
-        title
-      }
       htmlAst
     }
   }

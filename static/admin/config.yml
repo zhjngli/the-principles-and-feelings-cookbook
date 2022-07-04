@@ -10,7 +10,7 @@ publish_mode: editorial_workflow
 collections:
   - name: 'recipes'
     label: 'recipe'
-    folder: 'recipes'
+    folder: 'writing/recipes'
     create: true
     slug: '{{fields.slug}}'
     media_folder: ''
@@ -26,7 +26,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'principles'
     label: 'principle'
-    folder: 'principles'
+    folder: 'writing/principles'
     create: true
     slug: '{{fields.slug}}'
     media_folder: ''
@@ -42,7 +42,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'techniques'
     label: 'technique'
-    folder: 'techniques'
+    folder: 'writing/techniques'
     create: true
     slug: '{{fields.slug}}'
     media_folder: ''

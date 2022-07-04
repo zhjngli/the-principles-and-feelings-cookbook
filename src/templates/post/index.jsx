@@ -6,7 +6,7 @@ import SEO from '../../components/seo';
 import { renderAst } from '../../util';
 import styles from './style';
 
-export default function BlogPost({ data, pageContext }) {
+export default function Post({ data, pageContext }) {
   const { markdownRemark: post } = data;
   let tags;
   if (post.fields.tagSlugs) {

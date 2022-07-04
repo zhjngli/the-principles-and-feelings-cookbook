@@ -29,8 +29,11 @@ export default function Layout({ children }) {
           <div {...styles.title}>
             <Title />
           </div>
-          <Link to={'/about'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            about
+          <Link to={'/recipes'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            recipes
+          </Link>
+          <Link to={'/posts'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            posts
           </Link>
           <Link to={'/contact'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             contact

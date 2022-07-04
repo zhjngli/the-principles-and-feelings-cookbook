@@ -1,14 +1,10 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
-import rehypeReact from 'rehype-react';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
+import { renderAst } from '../../util';
 import styles from './style';
-
-const renderAst = new rehypeReact({
-  createElement: React.createElement
-}).Compiler;
 
 export default function BlogPost({ data, pageContext }) {
   const { markdownRemark: post } = data;

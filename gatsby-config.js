@@ -69,6 +69,22 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'principles',
+        path: `${__dirname}/writing/principles/`
+      },
+      __key: 'principles'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'techniques',
+        path: `${__dirname}/writing/techniques/`
+      },
+      __key: 'techniques'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'recipes',
         path: `${__dirname}/writing/recipes/`
       },

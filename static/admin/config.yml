@@ -12,7 +12,7 @@ collections:
     label: 'recipe'
     folder: 'writing/recipes'
     create: true
-    slug: '{{fields.slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
     media_folder: ''
     public_folder: ''
     path: '{{slug}}/index'
@@ -28,7 +28,7 @@ collections:
     label: 'principle'
     folder: 'writing/principles'
     create: true
-    slug: '{{fields.slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
     media_folder: ''
     public_folder: ''
     path: '{{slug}}/index'
@@ -44,7 +44,7 @@ collections:
     label: 'technique'
     folder: 'writing/techniques'
     create: true
-    slug: '{{fields.slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
     media_folder: ''
     public_folder: ''
     path: '{{slug}}/index'

@@ -29,17 +29,20 @@ export default function Layout({ children }) {
           <div {...styles.title}>
             <Title />
           </div>
+          <Link to={'/principles'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            principles
+          </Link>
+          <Link to={'/techniques'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            techniques
+          </Link>
           <Link to={'/recipes'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             recipes
           </Link>
-          <Link to={'/posts'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            posts
+          <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            tags
           </Link>
           <Link to={'/contact'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             contact
-          </Link>
-          <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            tags
           </Link>
           <footer {...styles.footerContainer}>&copy; 2021.</footer>
         </nav>

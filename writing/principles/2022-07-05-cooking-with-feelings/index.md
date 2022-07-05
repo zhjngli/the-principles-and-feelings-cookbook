@@ -19,8 +19,20 @@ Imagine you're following a recipe calls for a tablespoon of fresh cracked black 
 
 In the end, the recipe does not call for the tablespoon of black pepper, but rather the amount of flavor which a tablespoon of black pepper can provide to the dish. Of course this amount of flavor is dependent on the one who wrote the recipe, or to the one following the recipe's personal tastes, and knowing the ingredient you're using allows you to adjust the dish according to your tastes.
 
+## Components of flavor
+
+
+
 ## Using your intuition
 
-Let's say I'm adding salt to a stir fry. It should be obvious that a single grain of salt would not be enough to salt the dish. It should also be obvious that adding a whole container of Costco's kosher salt would be way too much. So clearly, the amount of salt appropriate to the dish falls somewhere in between.
+Let's say you're adding salt to a stir fry. It should be obvious that a single grain of salt would not be enough to salt the dish. It should also be obvious that adding a whole container of Costco's kosher salt would be way too much. So clearly, the amount of salt appropriate to the dish falls somewhere in between.
 
 Let's narrow down the amount of salt further. If the amount of food that you're stir frying fills a bowl that you're using (the actual volume the bowl can hold doesn't matter here), adding an amount of salt that also fills the bowl is probably too much.
+
+* What about half the bowl? Is that too much? Probably.
+* A quarter of the bowl? Probably still too much.
+* Enough salt to freckle the top of the food in the bowl? This should be pretty close, let's start here.
+
+After finishing the stir fry, was it salty enough? Too salty? Now you have an intuition of how much salt should be applied, specific to your tastes. Who knows if the one tablespoon of salt that a recipe calls for is to your taste?
+
+This not only applies to stir fries, but marinades, brines, and other seasoning. And of course, this not only applies to salt, but also other components of flavor, like garlic, peppers, chives, ginger, etc.

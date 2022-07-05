@@ -39,7 +39,6 @@
     "gatsby-plugin-netlify-cms": "^5.12.0",
     "gatsby-plugin-no-javascript-utils": "^0.7.2",
     "gatsby-plugin-offline": "^4.13.0",
-    "gatsby-plugin-preload-fonts": "^3.17.0",
     "gatsby-plugin-prettier-eslint": "^1.0.6",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-remove-trailing-slashes": "^3.13.0",

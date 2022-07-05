@@ -1,0 +1,49 @@
+{
+  "timestamp": 1656981491574,
+  "hash": "11a18f48b128660c4f15f5b80dd00ecd",
+  "assets": {
+    "/recipes/chicken/": {
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true
+    },
+    "/recipes/salmon/": {
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true
+    },
+    "/tags/meta/": {
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true
+    },
+    "/recipes/": {
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true
+    },
+    "/dev-404-page": {
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true
+    },
+    "/": {
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true
+    },
+    "/404.html": { "/static/noto-serif-latin-400-normal-0e4a2822a91cc3a785200a8c8e79825c.woff2": true },
+    "/404/": {
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true
+    },
+    "/contact/": {
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true
+    },
+    "/tags/": {
+      "/static/yellowtail-latin-400-normal-1c75ff6a448abb142fa8b3158b2ad0c2.woff2": true,
+      "/static/open-sans-latin-400-normal-4d140983c7c8c4a8c7229353f8a99f15.woff2": true,
+      "/static/open-sans-latin-600-normal-db299a13dd8553b0ec678f22bdd8da14.woff2": true
+    }
+  }
+}

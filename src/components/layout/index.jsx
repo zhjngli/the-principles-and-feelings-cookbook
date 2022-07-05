@@ -29,22 +29,31 @@ export default function Layout({ children }) {
           <div {...styles.title}>
             <Title />
           </div>
-          <Link to={'/principles'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            principles
-          </Link>
-          <Link to={'/techniques'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            techniques
-          </Link>
-          <Link to={'/recipes'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            recipes
-          </Link>
-          <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            tags
-          </Link>
-          <footer {...styles.footerContainer}>&copy; 2021.</footer>
+          <div {...styles.navLinksContainer}>
+            <Link to={'/principles'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+              principles
+            </Link>
+            <Link to={'/techniques'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+              techniques
+            </Link>
+            <Link to={'/recipes'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+              recipes
+            </Link>
+            <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+              tags
+            </Link>
+          </div>
+          <footer {...styles.footerContainer} {...styles.footerContainerInSidebar}>
+            &copy; 2021.
+          </footer>
         </nav>
       </header>
-      <main {...styles.mainContainer}>{children}</main>
+      <main {...styles.mainContainer}>
+        {children}
+        <footer {...styles.footerContainer} {...styles.footerContainerInMain}>
+          &copy; 2021.
+        </footer>
+      </main>
     </div>
   );
 }

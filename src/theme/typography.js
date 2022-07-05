@@ -20,7 +20,7 @@ const options = {
         backgroundColor: colors.background
       },
       'h1,h2,h3,h4,h5,h6': {
-        fontVariant: 'small-caps'
+        fontVariant: 'all-small-caps'
       },
       a: {
         color: colors.body,

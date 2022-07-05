@@ -54,7 +54,7 @@ export default {
     formStyle,
     {
       ...scale(2 / 5),
-      fontVariant: 'small-caps',
+      fontVariant: 'all-small-caps',
       letterSpacing: '0.04em',
       cursor: 'pointer',
 

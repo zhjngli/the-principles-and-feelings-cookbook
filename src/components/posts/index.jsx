@@ -8,8 +8,9 @@ export default function Posts({ posts }) {
     <ul {...styles.listContainer}>
       {posts.map(({ node: post }) => (
         <li key={post.fields.slug}>
-          <span {...styles.date}>{post.frontmatter.date}</span>
-          <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+          <h2 {...styles.post}>
+            <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+          </h2>
         </li>
       ))}
     </ul>

@@ -16,7 +16,7 @@ export default function Post({ data, pageContext }) {
       return (
         <>
           {' '}
-          &middot; in:{' '}
+          tagged in:{' '}
           <span key={tag}>
             <Link to={tag} {...styles.minorLink}>
               {post.frontmatter.tags[i]}
@@ -27,12 +27,7 @@ export default function Post({ data, pageContext }) {
       );
     });
   }
-  const infoSection = (
-    <span {...styles.infoSection}>
-      {post.frontmatter.date}
-      {tags}
-    </span>
-  );
+  const infoSection = <span {...styles.infoSection}>{tags}</span>;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} path={post.fields.slug} />
@@ -68,7 +63,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tags
-        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

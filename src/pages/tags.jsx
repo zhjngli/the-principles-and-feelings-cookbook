@@ -12,6 +12,7 @@ class TagsPageRoute extends React.Component {
     return (
       <Layout>
         <SEO title="tags" path="/tags" />
+        <h1>all tags</h1>
         <ul>
           {allTags.map((tag) => (
             <li key={tag.fieldValue}>

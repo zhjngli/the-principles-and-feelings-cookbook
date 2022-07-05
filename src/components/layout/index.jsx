@@ -30,16 +30,16 @@ export default function Layout({ children }) {
             <Title />
           </div>
           <div {...styles.navLinksContainer}>
-            <Link to={'/principles'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            <Link to={'/principles'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
               principles
             </Link>
-            <Link to={'/techniques'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            <Link to={'/techniques'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
               techniques
             </Link>
-            <Link to={'/recipes'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            <Link to={'/recipes'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
               recipes
             </Link>
-            <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
+            <Link to={'/tags'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
               tags
             </Link>
           </div>

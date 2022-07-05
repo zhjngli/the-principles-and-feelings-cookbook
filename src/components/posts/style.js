@@ -1,7 +1,5 @@
 import { css } from 'glamor';
 
-import colors from '../../theme/colors';
-import presets from '../../theme/presets';
 import { rhythm } from '../../theme/typography';
 
 export default {
@@ -11,12 +9,7 @@ export default {
     marginLeft: 0,
     listStyle: `none`
   }),
-  date: css({
-    color: colors.light,
-    display: `block`,
-    [presets.Mobile]: {
-      float: `right`,
-      marginLeft: `1rem`
-    }
+  post: css({
+    fontWeight: 400
   })
 };

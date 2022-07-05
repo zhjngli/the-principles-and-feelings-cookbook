@@ -21,4 +21,6 @@ In the end, the recipe does not call for the tablespoon of black pepper, but rat
 
 ## Using your intuition
 
-During a stir fry, I'll probably add garlic
+Let's say I'm adding salt to a stir fry. It should be obvious that a single grain of salt would not be enough to salt the dish. It should also be obvious that adding a whole container of Costco's kosher salt would be way too much. So clearly, the amount of salt appropriate to the dish falls somewhere in between.
+
+Let's narrow down the amount of salt further. If the amount of food that you're stir frying fills a bowl that you're using (the actual volume the bowl can hold doesn't matter here), adding an amount of salt that also fills the bowl is probably too much.

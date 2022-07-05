@@ -41,9 +41,6 @@ export default function Layout({ children }) {
           <Link to={'/tags'} {...styles.navLink} activeClassName={styles.activeNavLink}>
             tags
           </Link>
-          <Link to={'/contact'} {...styles.navLink} activeClassName={styles.activeNavLink}>
-            contact
-          </Link>
           <footer {...styles.footerContainer}>&copy; 2021.</footer>
         </nav>
       </header>

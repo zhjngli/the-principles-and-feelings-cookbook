@@ -7,8 +7,6 @@ This is a poorly written, disorganized, and mostly useless cookbook. There will 
 
 I've compiled my style, laziness, and experiences as a homecook for the past few years into this blunt cookbook. If you're sticking around to read and gain something valuable from this, thank you!! I guess?!
 
-Want to contact me? Fill out the [form](/contact)!
-
 ## who is this for?
 
 1. Anyone who doesn't have measuring tools in the kitchen
@@ -20,3 +18,7 @@ Want to contact me? Fill out the [form](/contact)!
 1. Anyone trying to be a serious cook
 1. Anyone who enjoys cooking
 1. Anyone who actually needs to learn something
+
+<hr />
+
+Feel free to [contact me](/contact)! And, check out the source on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).

@@ -45,7 +45,7 @@ export default {
   }),
   // main styles
   mainContainer: css({
-    marginTop: rhythm(3 / 2),
+    marginTop: rhythm(2),
     paddingTop: rhythm(3 / 2),
     // hack to make the width fill the allotted space only
     // rehypeReact for some reason causes the container to match parent width

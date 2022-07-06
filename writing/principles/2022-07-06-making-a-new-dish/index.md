@@ -17,6 +17,6 @@ What if you want to make something you've never made before? Here's what I do:
     - Can I cut any corners and get a similar result?
 1. After answering those questions, really quickly, in my head, I jump in and try to make that dish.
 
-After all is said and done, the first version probably wasn't the best tasting or the most efficient. But, I'll have learned, and I can tune my [feelings](/principles/cooking-with-feelings) accordingly so that the next time is a little bit more successful.
+After all is said and done, the first version probably wasn't the best tasting or the most efficient. But, I'll have learned what worked, what didn't work, and I can tune my [feelings](/principles/cooking-with-feelings) accordingly so that the next time is a little bit more successful.
 
 And I'll also be even more equipped to answer the question: Can I cut any corners and get a similar result? The next time I make the dish, my main goal is to make it taste marginally better, but expend less energy and time in making the dish.

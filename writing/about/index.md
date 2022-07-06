@@ -26,7 +26,7 @@ My wife thinks I cook pretty well, and so do other people who've had my food. Bu
 1. Start with [cooking with feelings](/principles/cooking-with-feelings). This sets the stage for the rest of the book and will help you determine whether you will find the cookbook legitimately useful.
 1. After that, check out some more [principles](/principles). These principles help you get a better grasp of overall cooking (hopefully).
 1. Then, read some [recipes](/recipes). Again, no measurements included here, just broad strokes of what I do.
-1. [Techniques](/techniques) may also be helpful here and there, but will likely be linked from different sections of the book as well.
+1. [Techniques](/techniques) may also be helpful here and there, but will likely be referenced as needed from different sections of the book.
 
 If you're sticking around to read and you gain something valuable from this, thank you!! I guess?!
 

@@ -13,7 +13,7 @@ Advantages of cooking with feelings:
 1. I never have to get a measuring spoon
 2. I have a deeper understanding of the depth of flavor each ingredient adds
 3. It's quicker than measuring
-4. Lots of legit chefs will tell you that a recipe is just a framework anyway. You can and should add/subtract from the recipe however you like, based on your feelings.
+4. Lots of legit chefs will tell you that a recipe is just a framework anyway. You can and should add/subtract from the recipe however you like, based on your _feelings_.
 
 ## Why measurement falls short
 

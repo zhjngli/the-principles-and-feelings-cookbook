@@ -10,4 +10,4 @@ We think of salt as salty. And on it's own, that's true. However, when mixed wit
 
 The final dish is only salty if you end up adding too much salt. But a properly salted dish is a fireworks display of balanced flavors, that tells you, this is delicious.
 
-Of course, each person has their own level of appropriate saltiness. This is also dependent on how different flavor components [balance](/principles/balancing-flavor). When cooking for yourself, the appropriate level of saltiness depends on [your feelings](/principles/cooking-with-feelings).
+Of course, each person has their own level of appropriate saltiness. This is also dependent on how different flavor components [balance](/principles/building-and-balancing-flavor). When cooking for yourself, the appropriate level of saltiness depends on [your feelings](/principles/cooking-with-feelings).

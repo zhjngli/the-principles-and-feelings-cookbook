@@ -26,8 +26,8 @@ Here, I think about the aromatics, the spices, the sauces, that help enhance the
 
 Is this dish really fatty, and need some acid to help cut the fat and avoid that greasiness?
 
+## final thoughts
 
-
-Figure out which flavors you enjoy, and what works together. Look up common flavor or ingredient combinations.
+Flavor really comes down to what you enjoy, and what works together. Look up common flavor or ingredient combinations. Don't be afraid to put together ingredients no one has done before, as long as you enjoy them.
 
 In the end, how much ingredient should you add so that the flavor adds complexity, but isn't overwhelming? Use your [feelings](/principles/cooking-with-feelings) or read a real recipe to get some sort of a guesstimate.

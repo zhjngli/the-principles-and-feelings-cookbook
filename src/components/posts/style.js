@@ -6,8 +6,7 @@ export default {
   listContainer: css({
     paddingTop: rhythm(1),
     paddingBottom: rhythm(1),
-    marginLeft: 0,
-    listStyle: `none`
+    listStyleType: 'decimal'
   }),
   post: css({
     fontWeight: 400

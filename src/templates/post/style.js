@@ -26,11 +26,11 @@ export default {
   postNavigation: css({
     ...scale(-1 / 4)
   }),
-  nextPost: css({
+  prevPost: css({
     float: `right`,
     marginLeft: `1rem`
   }),
-  prevPost: css({
+  nextPost: css({
     float: `left`,
     marginRight: `1rem`
   })

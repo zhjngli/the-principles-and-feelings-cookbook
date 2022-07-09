@@ -36,14 +36,14 @@ export default function Post({ data, pageContext }) {
       {renderAst(post.htmlAst)}
       <hr />
       <div {...styles.postNavigation}>
-        {pageContext.prev && (
-          <Link to={pageContext.prev.fields.slug} {...styles.minorLink} {...styles.prevPost}>
-            &#8592; {pageContext.prev.frontmatter.title}
-          </Link>
-        )}
         {pageContext.next && (
           <Link to={pageContext.next.fields.slug} {...styles.minorLink} {...styles.nextPost}>
-            {pageContext.next.frontmatter.title} &#8594;
+            &#8592; {pageContext.next.frontmatter.title}
+          </Link>
+        )}
+        {pageContext.prev && (
+          <Link to={pageContext.prev.fields.slug} {...styles.minorLink} {...styles.prevPost}>
+            {pageContext.prev.frontmatter.title} &#8594;
           </Link>
         )}
       </div>

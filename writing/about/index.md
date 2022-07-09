@@ -1,5 +1,4 @@
 ---
-date: '2021-08-18'
 title: 'about'
 ---
 
@@ -32,4 +31,4 @@ If you're sticking around to read and you gain something valuable from this, tha
 
 <hr />
 
-Feel free to [contact me](/contact)! And, check out the source on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).
+Feel free to [contact me](/contact)! Or submit a bug on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).

@@ -16,7 +16,6 @@ export default function Post({ data, pageContext }) {
       return (
         <>
           {' '}
-          tagged in:{' '}
           <span key={tag}>
             <Link to={tag} {...styles.minorLink}>
               {post.frontmatter.tags[i]}
@@ -27,7 +26,7 @@ export default function Post({ data, pageContext }) {
       );
     });
   }
-  const infoSection = <span {...styles.infoSection}>{tags}</span>;
+  const infoSection = <span {...styles.infoSection}>tagged in: {tags}</span>;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} path={post.fields.slug} />

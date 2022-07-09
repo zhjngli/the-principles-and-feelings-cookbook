@@ -3,7 +3,7 @@ date: '2021-08-18'
 title: 'about'
 ---
 
-This is a poorly written, disorganized, and mostly useless cookbook. There will be no measurements provided, cause everything is by [feeling](/principles/cooking-with-feelings). Because getting 90% of the way there with 10% of the effort is worthwhile 200% of the time.
+This is a poorly written, disorganized, and mostly useless cookbook. There will be no measurements provided, cause everything is by [feeling](/principles/cooking-with-feelings). Because getting 90% of the way there with 10% of the effort is worthwhile 200% of the time. The focus is mostly on Chinese dishes, since that's what I primarily cook, but the principles and techniques I hope are generally applicable.
 
 ## what's the motivation for writing this?
 

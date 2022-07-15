@@ -7,8 +7,5 @@ export default {
     paddingTop: rhythm(1),
     paddingBottom: rhythm(1),
     listStyleType: 'decimal'
-  }),
-  post: css({
-    fontWeight: 400
   })
 };

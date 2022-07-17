@@ -44,14 +44,14 @@ export default function Layout({ children }) {
             </Link>
           </div>
           <footer {...styles.footerContainer} {...styles.footerContainerInSidebar}>
-            &copy; 2021.
+            &copy; 2022.
           </footer>
         </nav>
       </header>
       <main {...styles.mainContainer}>
         {children}
         <footer {...styles.footerContainer} {...styles.footerContainerInMain}>
-          &copy; 2021.
+          &copy; 2022.
         </footer>
       </main>
     </div>

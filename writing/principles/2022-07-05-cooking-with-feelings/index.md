@@ -6,7 +6,7 @@ tags:
 date: 2022-07-04T23:59:57.662Z
 ---
 
-As I've cooked more and more the past few years, and I've occasionally been asked for recipes. Unfortunately I'm way too lazy to cook with a recipe. I don't have any measuring spoons, and I can hardly visualize the quantity of a cup, a tablespoon, or any legitimate measurement. All I understand is what looks like the "right" amount for the respective amount of meat, vegetables, soup, or whatever it is I'm cooking. This is cooking with _feelings_.
+As I've cooked more and more the past few years, I've occasionally been asked for recipes. Unfortunately I'm way too lazy to cook with a recipe. I don't have any measuring spoons, and I can hardly visualize the quantity of a cup, a tablespoon, or any legitimate measurement. All I understand is what looks like the "right" amount for the respective amount of meat, vegetables, soup, or whatever it is I'm cooking. This is cooking with _feelings_.
 
 Advantages of cooking with feelings:
 

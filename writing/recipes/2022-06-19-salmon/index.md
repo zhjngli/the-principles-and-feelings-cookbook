@@ -18,6 +18,7 @@ This was one of the things I made in college when I needed some protein and wasn
 
 ## Preparation
 
-Slice some onion thinly. It doesn't need to be too even because nobody cares that much when you're eating this. Slice enough so that it can create a bed for the salmon in the baking tray, as well as a cover the top of the salmon to protect the fish from direct heat. Toss the onion in your acid of choice, the optional cooking wine, along with enough salt and pepper to season both the onion and the salmon. Feel free to add other spices here if you want, like garlic powder, paprika, or whatever you feel like would taste good with the salmon.
+Slice some onion thinly. It doesn't need to be too even because nobody cares that much when you're eating this. Slice enough so that it can create a bed for the salmon in the baking tray, as well as a cover the top of the salmon to protect the fish from direct heat. Toss the onion in your acid of choice, the optional [cooking wine](/techniques/using-cooking-wine), along with enough salt and pepper to season both the onion and the salmon. Feel free to add other spices here if you want, like garlic powder, paprika, or whatever you feel like would taste good with the salmon.
 
-In your baking tray, lay a bed of the 
+In your baking tray, lay a bed of the onions so that the salmon has a place to rest, without sticking to the tray, or the aluminum foil if you're using that. Then lay a bed of the onions on top of the salmon to protect it from direct heat. Pour the rest of the juices over the salmon evenly. Drizzle some optional sesame oil on top for an extra kick of aroma.
+

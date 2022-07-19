@@ -29,6 +29,7 @@ Part of balancing flavor comes down to experience and your [feelings](/principle
 1. Umami (savoriness) is king. Unless you're making a dessert, umami is core to pretty much every dish. Saltiness and sweetness can help round out and enhance the umami. It's commonly found in most proteins and fats, but also found in some veggies like seaweed, mushrooms, tomatoes (yea, it's botanically a fruit but I use it mostly as a veggie).
 1. Acid (sourness) cuts through fat. Really fatty dishes can do well with some acidity. Why else are pickles so often found in burgers?
 1. Sweetness can help round out spice. It's common to find some sugar in chili oils, and especially in sichuanese dishes. The dishes are still spicy, but the sweetness is there to balance the palate and provide some relief.
+1. Sweetness can also help round out acids. A lot of pizza sauces have a little sugar so the tartness of the tomato is not as pronounced.
 1. Sour and sweet work well together. Have you ever had a sour patch kid? It's also the core flavor profile of many shanghainese dishes.
 
 ## final thoughts

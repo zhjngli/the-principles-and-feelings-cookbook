@@ -22,3 +22,4 @@ Slice some onion thinly. It doesn't need to be too even because nobody cares tha
 
 In your baking tray, lay a bed of the onions so that the salmon has a place to rest, without sticking to the tray, or the aluminum foil if you're using that. Then lay a bed of the onions on top of the salmon to protect it from direct heat. Pour the rest of the juices over the salmon evenly. Drizzle some optional sesame oil on top for an extra kick of aroma.
 
+[Bake](/techniques/baking) the salmon. I tend to use a lower temperature for a slightly longer bake time, because it keeps the salmon much more tender and juicy. Over-baking salmon can easily dry it out, nobody likes that. I never have a specific temperature or bake time, so use your [feelings](/principles/cooking-with-feelings) to figure it out.

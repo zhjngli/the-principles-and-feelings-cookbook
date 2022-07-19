@@ -5,7 +5,7 @@ tags:
   - bake
 date: 2022-07-19T06:31:27.983Z
 ---
-No, not the pastries and desserts kind of baking. That actually requires measurement, and as you probably know by now, I'm way too lazy for that. Also, I treat "baking" synonymously with "using my oven." So in reality, "baking" includes things like broiling and reheating.
+No, not the pastries and desserts kind of baking. That actually requires measurement, and as you should know by now, I'm way too lazy for that. Also, I treat "baking" synonymously with "using my oven." So in reality, "baking" includes things like broiling and reheating.
 
 I tend to mostly bake meat, or bake to reheat things like cookies, pizza, scallion pancakes, fried chicken, or other things that should have some crispy component. So, when I think about baking, I think not in terms of a bake temperature or bake time, but rather in ranges of temperature and their usage.
 

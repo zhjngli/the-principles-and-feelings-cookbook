@@ -17,7 +17,7 @@ export default function Post({ data, pageContext }) {
         <>
           {' '}
           <span key={tag}>
-            <Link to={tag} {...styles.minorLink}>
+            <Link to={tag} css={styles.minorLink}>
               {post.frontmatter.tags[i]}
             </Link>
             {divider}
@@ -26,23 +26,23 @@ export default function Post({ data, pageContext }) {
       );
     });
   }
-  const infoSection = <span {...styles.infoSection}>tagged in: {tags}</span>;
+  const infoSection = <span css={styles.infoSection}>tagged in: {tags}</span>;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} path={post.fields.slug} />
-      <h1 {...styles.title}>{post.frontmatter.title}</h1>
+      <h1 css={styles.title}>{post.frontmatter.title}</h1>
       {infoSection}
       <hr />
       {renderAst(post.htmlAst)}
       <hr />
-      <div {...styles.postNavigation}>
+      <div css={styles.postNavigation}>
         {pageContext.next && (
-          <Link to={pageContext.next.fields.slug} {...styles.minorLink} {...styles.nextPost}>
+          <Link to={pageContext.next.fields.slug} css={[styles.minorLink, styles.nextPost]}>
             &#8592; {pageContext.next.frontmatter.title}
           </Link>
         )}
         {pageContext.prev && (
-          <Link to={pageContext.prev.fields.slug} {...styles.minorLink} {...styles.prevPost}>
+          <Link to={pageContext.prev.fields.slug} css={[styles.minorLink, styles.prevPost]}>
             {pageContext.prev.frontmatter.title} &#8594;
           </Link>
         )}

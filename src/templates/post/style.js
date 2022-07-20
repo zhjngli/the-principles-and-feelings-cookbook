@@ -1,4 +1,4 @@
-import { css } from 'glamor';
+import { css } from '@emotion/react';
 
 import colors from '../../theme/colors';
 import { rhythm, scale } from '../../theme/typography';
@@ -18,7 +18,7 @@ export default {
   minorLink: css({
     color: colors.light,
     borderColor: colors.light,
-    ':hover': {
+    '&:hover': {
       color: colors.light,
       borderColor: colors.linkHover
     }

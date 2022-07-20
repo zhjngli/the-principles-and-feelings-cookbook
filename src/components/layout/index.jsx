@@ -12,47 +12,42 @@ export default function Layout({ children }) {
         siteMetadata {
           title
           description
-          siteUrl
         }
       }
     }
   `);
   const md = data.site.siteMetadata;
   return (
-    <div {...styles.container}>
+    <div css={styles.container}>
       <Helmet titleTemplate={`%s | ${md.title}`} defaultTitle={md.title} defer={false}>
         <html lang="en" />
         <meta name="description" content={`${md.description}`} />
       </Helmet>
-      <header {...styles.headerContainer}>
-        <nav {...styles.navContainer}>
-          <div {...styles.title}>
+      <header css={styles.headerContainer}>
+        <nav css={styles.navContainer}>
+          <div css={styles.title}>
             <Title />
           </div>
-          <div {...styles.navLinksContainer}>
-            <Link to={'/principles'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
+          <div css={styles.navLinksContainer}>
+            <Link to={'/principles'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               principles
             </Link>
-            <Link to={'/techniques'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
+            <Link to={'/techniques'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               techniques
             </Link>
-            <Link to={'/recipes'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
+            <Link to={'/recipes'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               recipes
             </Link>
-            <Link to={'/tags'} {...styles.navLink} activeClassName={String(styles.activeNavLink)}>
+            <Link to={'/tags'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               tags
             </Link>
           </div>
-          <footer {...styles.footerContainer} {...styles.footerContainerInSidebar}>
-            &copy; 2022.
-          </footer>
+          <footer css={[styles.footerContainer, styles.footerContainerInSidebar]}>&copy; 2022.</footer>
         </nav>
       </header>
-      <main {...styles.mainContainer}>
+      <main css={styles.mainContainer}>
         {children}
-        <footer {...styles.footerContainer} {...styles.footerContainerInMain}>
-          &copy; 2022.
-        </footer>
+        <footer css={[styles.footerContainer, styles.footerContainerInMain]}>&copy; 2022.</footer>
       </main>
     </div>
   );

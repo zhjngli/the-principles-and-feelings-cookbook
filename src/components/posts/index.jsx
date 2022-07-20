@@ -5,7 +5,7 @@ import styles from './style';
 
 export default function Posts({ posts }) {
   return (
-    <ul {...styles.listContainer}>
+    <ul css={styles.listContainer}>
       {posts.map(({ node: post }) => (
         <li key={post.fields.slug}>
           <Link to={post.fields.slug}>{post.frontmatter.title}</Link>

@@ -1,4 +1,4 @@
-import { css } from 'glamor';
+import { css } from '@emotion/react';
 
 import { rhythm } from '../../theme/typography';
 

@@ -6,6 +6,7 @@ tags:
   - bake
 date: 2022-06-19
 ---
+
 This was one of the things I made in college when I needed some protein and wasn't able to get into a dining hall. It's a straightforward preparation and requires minimal attention, meaning you can cook another dish, or do something else while this is cooking.
 
 ## Stuff you'll need

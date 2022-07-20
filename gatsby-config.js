@@ -12,8 +12,8 @@ module.exports = {
   trailingSlash: 'never',
   plugins: [
     'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-glamor',
-    'gatsby-plugin-remove-trailing-slashes',
+    // 'gatsby-plugin-glamor',
+    // 'gatsby-plugin-remove-trailing-slashes',
     'gatsby-plugin-gatsby-cloud',
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
@@ -100,33 +100,33 @@ module.exports = {
       __key: 'about'
     },
     'gatsby-plugin-offline', // after manifest plugin
-    {
-      resolve: 'gatsby-plugin-prettier-eslint',
-      options: {
-        prettier: {
-          patterns: [
-            // the pattern "**/*.{js,jsx,ts,tsx}" is not used because we will rely on `eslint --fix`
-            '**/*.{css,scss,less}',
-            '**/*.{json,json5}',
-            '**/*.{graphql}',
-            '**/*.{md,mdx}',
-            '**/*.{html}',
-            '**/*.{yaml,yml}'
-          ]
-        },
-        eslint: {
-          patterns: '**/*.{js,jsx,ts,tsx}',
-          ignorePatterns: ['.eslintrc.js', 'gatsby-config.js', 'gatsby-node.js'],
-          customOptions: {
-            fix: true,
-            env: {
-              browser: true,
-              node: true
-            }
-          }
-        }
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-prettier-eslint',
+    //   options: {
+    //     prettier: {
+    //       patterns: [
+    //         // the pattern "**/*.{js,jsx,ts,tsx}" is not used because we will rely on `eslint --fix`
+    //         '**/*.{css,scss,less}',
+    //         '**/*.{json,json5}',
+    //         '**/*.{graphql}',
+    //         '**/*.{md,mdx}',
+    //         '**/*.{html}',
+    //         '**/*.{yaml,yml}'
+    //       ]
+    //     },
+    //     eslint: {
+    //       patterns: '**/*.{js,jsx,ts,tsx}',
+    //       ignorePatterns: ['.eslintrc.js', 'gatsby-config.js', 'gatsby-node.js'],
+    //       customOptions: {
+    //         fix: true,
+    //         env: {
+    //           browser: true,
+    //           node: true
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-no-javascript-utils',
       options: {

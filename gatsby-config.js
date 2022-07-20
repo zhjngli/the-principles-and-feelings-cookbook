@@ -9,6 +9,7 @@ module.exports = {
     description: description,
     author: 'Zhijiang Li'
   },
+  trailingSlash: 'never',
   plugins: [
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-glamor',

@@ -38,7 +38,6 @@ module.exports = {
       options: {
         excerpt_separator: `<!-- end -->`,
         plugins: [
-          'gatsby-remark-prismjs',
           {
             resolve: "gatsby-remark-external-links",
             options: {

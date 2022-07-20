@@ -1,4 +1,4 @@
-const url = 'https://ts-blog.netlify.app';
+const url = 'https://principles-cookbook.netlify.app';
 const title = 'the principles and feelings cookbook';
 const description = "the principles and feelings cookbook";
 

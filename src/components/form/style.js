@@ -1,4 +1,4 @@
-import { css } from '@emotion/css';
+import { css } from '@emotion/react';
 
 import colors from '../../theme/colors';
 import { rhythm, scale } from '../../theme/typography';

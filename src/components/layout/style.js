@@ -3,7 +3,7 @@ import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import '../../theme/global.css';
 import '../../theme/fonts.css';
 
-import { css } from '@emotion/css';
+import { css } from '@emotion/react';
 
 import colors from '../../theme/colors';
 import { ResponsiveMaxWidth, ResponsiveMinWidth } from '../../theme/presets';
@@ -70,7 +70,7 @@ export default {
   navLink: css({
     padding: `${rhythm(1 / 8)} 0`,
     borderBottom: 0,
-    ':hover': {
+    '&:hover': {
       borderBottom: 0,
       color: colors.linkHover
     },
@@ -80,7 +80,7 @@ export default {
   }),
   activeNavLink: css({
     fontWeight: 800,
-    ':hover': {
+    '&:hover': {
       color: colors.header
     }
   }),

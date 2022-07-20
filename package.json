@@ -11,13 +11,15 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
+    "start": "npm run lint && gatsby develop",
+    "build": "npm run lint && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "lint": "eslint ./src --ext=js,jsx --fix && prettier --write static writing",
     "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
+    "@emotion/css": "^11.9.0",
     "@fontsource/open-sans": "^4.5.10",
     "@fontsource/yellowtail": "^4.5.7",
     "@mdx-js/mdx": "^1.6.22",
@@ -29,6 +31,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "gatsby": "^4.19.0",
     "gatsby-plugin-catch-links": "^4.19.0",
+    "gatsby-plugin-emotion": "^7.19.0",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-google-analytics": "^4.19.0",
     "gatsby-plugin-image": "^2.19.0",
@@ -47,7 +50,6 @@
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-remark": "^5.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
-    "glamor": "^2.20.40",
     "lodash": "^4.17.21",
     "netlify-cms-app": "^2.15.38",
     "postcss": "^8.3.6",

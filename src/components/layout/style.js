@@ -3,7 +3,7 @@ import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import '../../theme/global.css';
 import '../../theme/fonts.css';
 
-import { css } from 'glamor';
+import { css } from '@emotion/css';
 
 import colors from '../../theme/colors';
 import { ResponsiveMaxWidth, ResponsiveMinWidth } from '../../theme/presets';

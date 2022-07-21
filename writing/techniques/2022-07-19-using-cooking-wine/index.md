@@ -3,7 +3,7 @@ title: Using Cooking Wine
 slug: using cooking wine
 tags:
   - ingredient
-  - cookingwine
+  - cooking-wine
 date: 2022-07-19T06:07:25.214Z
 ---
 

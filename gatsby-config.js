@@ -24,7 +24,7 @@ module.exports = {
         short_name: `cookbook`,
         description: description,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#f0ead6`,
         theme_color: `#f0ead6`,
         display: `standalone`,
         icon: 'src/images/master-512.png',

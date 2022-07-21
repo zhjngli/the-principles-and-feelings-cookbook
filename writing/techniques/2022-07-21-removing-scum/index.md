@@ -25,7 +25,7 @@ Usually, yea. It doesn't require a whole lot of work, and it can be done in the 
 
 Boil some water, dump the meat in, let the water boil again, and cook the meat just enough so that the outside is set. Or you could just dump the meat in cold water, and let the water boil a bit to cook the meat. What's the difference? I don't know, maybe the meat will be a little more cooked in the later case, so you're losing some flavor to this water that's going to be unused.
 
-This should draw out most of the blood and scum from the meat. Then you can rinse the scum off the meat in a colander, and rinse the scum out of the pot as well. Plus, now that the meat is a little more cooked, less scum should come out of the meat as you proceed with the rest of the cooking.
+Anyway, this should draw out most of the blood and scum from the meat. Then you can rinse the scum off the meat in a colander, and rinse the scum out of the pot as well. Plus, now that the meat is a little more cooked, less scum should come out of the meat as you proceed with the rest of the cooking.
 
 ### Do I use this technique?
 

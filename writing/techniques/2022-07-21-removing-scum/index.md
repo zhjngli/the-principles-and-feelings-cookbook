@@ -1,6 +1,6 @@
 ---
 title: Removing Scum from Meat
-slug: removing-scum
+slug: removing scum from meat
 tags:
   - scum
   - meat
@@ -37,4 +37,3 @@ Probably the most effective way to ensure that all the scum is removed, is to st
 ### Do I use this technique?
 
 Heck nah. I'm not gonna stand watch over a soup for half an hour to skim away the scum. I could be cooking something else, or doing something else while the soup is being made.
-

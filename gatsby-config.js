@@ -25,7 +25,7 @@ module.exports = {
         description: description,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#fff`,
+        theme_color: `#f0ead6`,
         display: `standalone`,
         icon: 'src/images/master-512.png',
         icon_options: {

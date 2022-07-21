@@ -5,7 +5,6 @@ tags:
   - flavor
 date: 2022-07-06T19:15:58.312Z
 ---
-
 We often hear about 5 main components of flavor: salt, sweet, sour, umami, bitter. This is mostly true, but a little reductive when considering the flavors of meat, peppers, onions, garlic, different spices, etc. The final flavor of any dish is complex and layered, each ingredient contributes to that symphony.
 
 ## building flavor
@@ -27,10 +26,11 @@ Here, I think about the aromatics, the spices, the sauces, that help enhance the
 Part of balancing flavor comes down to experience and your [feelings](/principles/cooking-with-feelings), because who else knows what flavors work better together than yourself? But, part of this comes down to a few principles as well:
 
 1. Umami (savoriness) is king. Unless you're making a dessert, umami is core to pretty much every dish. Saltiness and sweetness can help round out and enhance the umami. It's commonly found in most proteins and fats, but also found in some veggies like seaweed, mushrooms, tomatoes (yea, it's botanically a fruit but I use it mostly as a veggie).
-1. Acid (sourness) cuts through fat. Really fatty dishes can do well with some acidity. Why else are pickles so often found in burgers?
-1. Sweetness can help round out spice. It's common to find some sugar in chili oils, and especially in sichuanese dishes. The dishes are still spicy, but the sweetness is there to balance the palate and provide some relief.
-1. Sweetness can also help round out acids. A lot of pizza sauces have a little sugar so the tartness of the tomato is not as pronounced.
-1. Sour and sweet work well together. Have you ever had a sour patch kid? It's also the core flavor profile of many shanghainese dishes.
+2. Funkiness can complement umami. Funkiness is hard to describe, and it often comes in many forms. Most often it comes from some sort of fermentation or aging process. It's a deeper, more complex flavor, that develops over time. Sample ingredients that have funk are things like fermented black beans, kimchi, dry-aged beef, cheese, etc. It adds an extra layer of flavor that goes well with savory dishes.
+3. Acid (sourness) cuts through fat. Really fatty dishes can do well with some acidity. Why else are pickles so often found in burgers?
+4. Sweetness can help round out spice. It's common to find some sugar in chili oils, and especially in sichuanese dishes. The dishes are still spicy, but the sweetness is there to balance the palate and provide some relief.
+5. Sweetness can also help round out acids. A lot of pizza sauces have a little sugar so the tartness of the tomato is not as pronounced.
+6. Sour and sweet work well together. Have you ever had a sour patch kid? It's also the core flavor profile of many shanghainese dishes.
 
 ## final thoughts
 

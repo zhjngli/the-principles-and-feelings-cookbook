@@ -33,7 +33,7 @@ Usually, no. It's more dishes to wash. And if I'm making soup, which is usually 
 
 ## Skimming
 
-Probably the most effective way to ensure that all the scum is removed, is to stand diligent watch, and skim off any scum that floats to the surface as the soup is simmering away. This is best done in conjunction with parboiling, because very often, there will be some scum stuck to the meat as it's cooking. It's hard to skim that off, but it's easy to rinse it off in the parboiling step. Keep simmering and skimming until there's no visible scum left, and your resulting soup broth should be nice and clear!
+Probably the most effective way to ensure that all the scum is removed, is to stand diligent watch, and skim off any scum that floats to the surface as the soup is simmering away. This is best done in conjunction with parboiling, because very often, there will be some scum stuck to the meat as it's cooking. Scum that's stuck to the meat is easily rinsable in the parboiling step, but you can't really remove in the skimming step. Otherwise, keep simmering and skimming until there's no visible scum left, and your resulting soup broth should be nice and clear!
 
 ### Do I use this technique?
 

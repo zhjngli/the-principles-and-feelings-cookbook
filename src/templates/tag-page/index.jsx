@@ -20,9 +20,7 @@ export default function TagPage({ data, pageContext }) {
   return (
     <Layout>
       <SEO title={pageContext.tag} path={pageContext.slug} />
-      <h1>
-        posts tagged with “{pageContext.tag}”
-      </h1>
+      <h1>posts tagged with “{pageContext.tag}”</h1>
       {Object.keys(categorizedPosts)
         .sort()
         .map((category) => {

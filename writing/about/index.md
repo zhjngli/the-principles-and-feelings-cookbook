@@ -26,9 +26,10 @@ My wife thinks I cook pretty well, and so do other people who've had my food. Bu
 1. After that, check out some more [principles](/principles). These principles help you get a better grasp of overall cooking (hopefully).
 1. Then, read some [recipes](/recipes). Again, no measurements included here, just broad strokes of what I do.
 1. [Techniques](/techniques) may also be helpful here and there, but will likely be referenced as needed from different sections of the book.
-
-If you're sticking around to read and you gain something valuable from this, thank you!! I guess?!
+1. [Tags](/tags) group articles based on the general concepts that each article touches on. You can treat it like a concordance.
 
 <hr />
 
-Feel free to [contact me](/contact)! Or submit a bug on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).
+If you're sticking around to read after dealing with all that sarcasm, I'm truly honored&mdash;thank you so much! If you gain something valuable after all the rambling about [feelings](/principles/cooking-with-feelings), I'm honestly surprised&mdash;consider buying me some food via Venmo: @Zhijiang-Li.
+
+Also, feel free to [contact me](/contact)! Or submit a bug on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).

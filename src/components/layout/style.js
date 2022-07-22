@@ -18,7 +18,7 @@ export default {
       display: 'flex',
       flexDirection: 'row',
       maxWidth: contentMaxWidth,
-      margin: `0 auto`,
+      margin: `0 auto ${rhythm(3)} auto`,
       padding: rhythm(1)
     },
     [ResponsiveMaxWidth]: {
@@ -99,7 +99,7 @@ export default {
   }),
   // footer styles
   footerContainer: css({
-    padding: `${rhythm(2)} 0`,
+    padding: `${rhythm(2)} 0 ${rhythm(3)} 0`,
     fontSize: `80%`
   }),
   footerContainerInSidebar: css({

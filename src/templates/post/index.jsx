@@ -26,7 +26,7 @@ export default function Post({ data, pageContext }) {
       );
     });
   }
-  const infoSection = <span css={styles.infoSection}>tagged in: {tags}</span>;
+  const infoSection = <span css={styles.infoSection}>tagged with: {tags}</span>;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} path={post.fields.slug} />

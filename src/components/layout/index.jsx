@@ -32,11 +32,11 @@ export default function Layout({ children }) {
             <Link to={'/principles'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               principles
             </Link>
-            <Link to={'/techniques'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
-              techniques
-            </Link>
             <Link to={'/recipes'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               recipes
+            </Link>
+            <Link to={'/techniques'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
+              techniques
             </Link>
             <Link to={'/tags'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               tags

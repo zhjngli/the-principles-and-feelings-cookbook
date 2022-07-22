@@ -6,18 +6,38 @@ import Posts from '../../components/posts';
 import SEO from '../../components/seo';
 
 export default function TagPage({ data, pageContext }) {
-  const posts = data.allMarkdownRemark.edges;
-  const totalCount = data.allMarkdownRemark.totalCount;
+  const allPosts = data.allMarkdownRemark.edges;
+
+  const categorizedPosts = {};
+  allPosts.forEach((p) => {
+    if (p.node.fields.category in categorizedPosts) {
+      categorizedPosts[p.node.fields.category].push(p);
+    } else {
+      categorizedPosts[p.node.fields.category] = [p];
+    }
+  });
 
   return (
     <Layout>
       <SEO title={pageContext.tag} path={pageContext.slug} />
       <h1>
-        {totalCount}
-        {` `}
-        post{totalCount != 1 && 's'} in “{pageContext.tag}”
+        posts tagged with “{pageContext.tag}”
       </h1>
-      <Posts posts={posts} />
+      {Object.keys(categorizedPosts)
+        .sort()
+        .map((category) => {
+          const posts = categorizedPosts[category];
+          return (
+            <div key={category}>
+              <h2>
+                {posts.length}
+                {` `}
+                post{posts.length != 1 && 's'} under “{category}”
+              </h2>
+              <Posts posts={posts} />
+            </div>
+          );
+        })}
       <p>
         Or check out <Link to="/tags">all tags</Link>.
       </p>
@@ -31,11 +51,11 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
-      totalCount
       edges {
         node {
           fields {
             slug
+            category
           }
           frontmatter {
             title

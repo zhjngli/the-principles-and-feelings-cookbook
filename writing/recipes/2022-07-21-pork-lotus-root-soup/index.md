@@ -7,12 +7,13 @@ tags:
   - lotus-root
 date: 2022-07-21T07:17:25.375Z
 ---
+
 A simple, savory, nutritious soup that is comforting and warms your soul.
 
 ## Stuff you'll need
 
 - Pork ribs (spare ribs or baby back ribs are both fine)
-    - Or, any kind of pork bones with some meat on it. The bones impart a lot of flavor, and the meat is for eating. If you just want the flavor, you could go for mostly bones without a lot of meat. I find that ribs have a good combination of both.
+  - Or, any kind of pork bones with some meat on it. The bones impart a lot of flavor, and the meat is for eating. If you just want the flavor, you could go for mostly bones without a lot of meat. I find that ribs have a good combination of both.
 - Lotus root
 - Salt
 - MSG

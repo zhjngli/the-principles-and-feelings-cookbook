@@ -138,9 +138,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     // slug based on post directory name
     const category = fileNode.sourceInstanceName;
-    const dashSepDirName = fileNode.relativeDirectory.split('-');
-    const titleSlug = dashSepDirName.slice(3).join('-');
-    const slug = `/${category}/${titleSlug}`;
+    const frontmatterSlug = String(node.frontmatter.slug).replace(/ /g, '-');
+    const slug = `/${category}/${frontmatterSlug}`;
     // insert slug to both markdown node
     createNodeField({ node, name: `slug`, value: slug });
 

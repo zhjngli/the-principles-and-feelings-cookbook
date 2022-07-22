@@ -7,6 +7,7 @@ tags:
   - soup
 date: 2022-07-21T07:27:47.551Z
 ---
+
 Meat or bones that you've just bought tends to have blood in it, and random other proteins that will come out in the cooking process. If you cook that meat in water, for example, in a soup, the blood and proteins will get drawn out, and form this black-ish foam on top of the soup.
 
 The scum is perfectly edible, it's just cooked proteins. However, its appearance is not very appetizing, it could get burned when cooking on a stovetop, it clouds up the soup broth, and it affects the texture and flavor of the soup. But, depending how much you care about each of these things, it may or may not be worthwhile to apply some or all of the following techniques. Use your [feelings](/principles/cooking-with-feelings) to decide.

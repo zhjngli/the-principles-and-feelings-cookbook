@@ -25,8 +25,34 @@ In a wok, heat up oil and add the base ingredients to draw out the flavor. Make 
 
 Add in your veggies and stir-fry. The veggies will likely start to sweat some moisture if you're on a weak stove. This is a major transgression for true wok technique, the goal of a stir-fry is to slightly char the outside of the food for flavor, and lock in the moisture. But if you care that much go get a portable burner or something.
 
-When the veggies are mostly done, add in your seasonings or your sauce. My mom says adding the salt late in the stir-fry preserves the bright green of the veggie. I've never tested this, but who am I to distrust the woman who fed me for most of my life? When adding the sauce, make sure to coat the veggies, and let it boil off a little so there's less moisture, and a more concentrated flavor.
+When the veggies are mostly done, add in your seasonings or your sauce. My mom says adding the salt late in the stir-fry preserves the bright green of the veggie. I've never tested this, but who am I to distrust the woman who fed me for most of my life? When adding the sauce, make sure to coat the veggies, and let the heat of the wok cook it a little so there's more complex roasted flavors, and less moisture.
+
+## Base ingredients
+
+Just some samples of base ingredients that I use. Get a feeling for what I use and why I use it, and experiment with the spices or ingredients that you like.
+
+### Garlic
+
+Garlic tastes great, when would you not use it? Never. Except when cooking something like garlic chives, which already has a garlicky flavor. So the answer is still never. If you disagree, stop reading and go home.
+
+### Ginger
+
+I almost never do this because I'm lazy, and I like to use ginger for meat applications more than veggie applications. But it's totally reasonable to add a light refreshing difference to the stir-fry.
+
+### Dried shrimp
+
+This has a ton of umami, it's fantastic. I use it for veggies that don't have a lot of flavor on their own and need an extra boost. Or just to add extra complexity.
+
+### Fermented black beans
+
+This has a funkiness, and complements umami ingredients very well. I'll often use it with the dried shrimp. It can be a little salty, so probably use less salt later.
+
+### Spices
+
+Most often I'll only use some chili flakes for heat, or some crushed sichuan peppercorns for a floral, citrus note, but not enough to make the resulting dish numbing. Other spices are totally viable too, experiment with it!
 
 ## Sauces
+
+
 
 ## Table of combinations

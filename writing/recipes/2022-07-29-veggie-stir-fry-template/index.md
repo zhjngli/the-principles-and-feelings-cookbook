@@ -39,6 +39,10 @@ Garlic tastes great, when would you not use it? Never. Except when cooking somet
 
 I almost never do this because I'm lazy, and I like to use ginger for meat applications more than veggie applications. But it's totally reasonable to add a light refreshing difference to the stir-fry.
 
+### Spices
+
+Most often I'll only use some chili flakes for heat, or some crushed sichuan peppercorns for a floral, citrus note, but not enough to make the resulting dish numbing. Other spices are totally viable too, experiment with it!
+
 ### Dried shrimp
 
 This has a ton of umami, it's fantastic. I use it for veggies that don't have a lot of flavor on their own and need an extra boost. Or just to add extra complexity.
@@ -47,12 +51,26 @@ This has a ton of umami, it's fantastic. I use it for veggies that don't have a 
 
 This has a funkiness, and complements umami ingredients very well. I'll often use it with the dried shrimp. It can be a little salty, so probably use less salt later.
 
-### Spices
+### zha cai (榨菜)
 
-Most often I'll only use some chili flakes for heat, or some crushed sichuan peppercorns for a floral, citrus note, but not enough to make the resulting dish numbing. Other spices are totally viable too, experiment with it!
+This is a pickled mustard green. It adds some funkiness and umami to the dish. It's almost like a cheat code because it already tastes pretty good on its own, and adds that special something to the veggie.
+
+### Sauces
+
+Don't you already have another section for sauces? Yea, but these sauces are a little different. I often get things like some sort of chili crisp, chili paste, broad bean paste, or other similar Chinese flavorings. It helps to add these kinds of sauces as a base ingredient to help bring out the flavors.
 
 ## Sauces
 
+### Soy sauce
 
+A funky fermented sauce that adds saltiness and umami to the veggie. Helpful especially when adding other ingredients with more "complex" flavor, like a chili crisp, or fermented black beans, etc.
+
+### Oyster sauce
+
+
+
+### Cooking wine
+
+### Some mix
 
 ## Table of combinations

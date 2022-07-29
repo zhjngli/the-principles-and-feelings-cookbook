@@ -75,6 +75,6 @@ I've seen this used sparingly just to add a slightly more complex flavor. Too mu
 
 ### Some mix
 
-
+Of course it's helpful to mix some sauces too. A simple one would be some soy sauce, cooking wine, and water. Or oyster sauce, cooking wine, and water. Or all of the above. It's about experimenting to find what you like.
 
 ## Table of combinations

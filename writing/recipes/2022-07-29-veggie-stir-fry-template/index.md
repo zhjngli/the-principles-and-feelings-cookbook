@@ -57,7 +57,7 @@ This is a pickled mustard green. It adds some funkiness and umami to the dish. I
 
 ### Sauces
 
-Don't you already have another section for sauces? Yea, but these sauces are a little different. I often get things like some sort of chili crisp, chili paste, broad bean paste, or other similar Chinese flavorings. It helps to add these kinds of sauces as a base ingredient to help bring out the flavors.
+Don't you already have another section for sauces? Yea, but these sauces are a little different. I often get things like some sort of chili crisp, chili paste, broad bean paste, or other similar Chinese flavorings. It helps to add these kinds of sauces as a base ingredient to help bring out the flavors. If zha cai was a cheat code, this is like exodia, since it'll do all the heavy lifting in the stir-fry.
 
 ## Sauces
 
@@ -67,10 +67,14 @@ A funky fermented sauce that adds saltiness and umami to the veggie. Helpful esp
 
 ### Oyster sauce
 
-
+I don't know a lot about this sauce honestly, but it works well in adding umami, in a different way than soy sauce does. Also works well with marinating beef.
 
 ### Cooking wine
 
+I've seen this used sparingly just to add a slightly more complex flavor. Too much can be overwhelming, but mostly it's for saltiness, and to round out the bite of certain veggies.
+
 ### Some mix
+
+
 
 ## Table of combinations

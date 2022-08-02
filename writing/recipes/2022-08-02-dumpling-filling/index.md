@@ -33,7 +33,7 @@ It doesn't make sense to make [dumpling skins](/recipes/homemade-dumpling-skins)
 
 Add all the seasonings to your ground meat. Since I'm Chinese, I usually use the classics: soy sauce, cooking wine, salt, MSG, white pepper. And I usually just use ground pork.
 
-I also like to add some oil to help the resulting texture. A neutral oil is fine, but something like scallion or sesame oil can also be used, to impart an extra aroma and lift to the final filling.
+I also like to add some oil to help the resulting texture be a little more creamy. A neutral oil is fine, but something like scallion or sesame oil can also be used, to impart an extra aroma and lift to the final filling.
 
 ### Emulsifying the meat
 
@@ -42,6 +42,13 @@ I don't know what other people say about dumpling filling, but the most importan
 So, get all your ground meat, and stir it in one direction for a while using chopsticks. Once you see that the lean meat and fat are emulsified together, where there are almost thin strands of meat left behind by the chopstick trail, you can be somewhat confident that the meat is emulsified. Stir it some more in the same direction to be sure.
 
 ### Adding the other stuff
+
+For the most part, you just need to chop up whatever ingredients you want to add really really finely, and fold it into the emulsified meat mixture. However, a few things to keep in mind:
+- Don't add too many ingredients. 3 ingredients including the meat is a good amount.
+- Think about flavor profiles when combining these ingredients.
+- For ingredients that have a lot of water, you'll need to get that moisture out first, so that the resulting filling doesn't becoming a watery mess.
+
+
 
 ## Final thoughts
 

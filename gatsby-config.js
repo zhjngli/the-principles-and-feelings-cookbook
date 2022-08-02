@@ -39,6 +39,12 @@ module.exports = {
         excerpt_separator: `<!-- end -->`,
         plugins: [
           {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              isIconAfterHeader: true
+            },
+          },
+          {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",

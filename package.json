@@ -45,6 +45,7 @@
     "gatsby-plugin-sharp": "^4.19.0",
     "gatsby-plugin-sitemap": "^5.19.0",
     "gatsby-plugin-typography": "^4.19.0",
+    "gatsby-remark-autolink-headers": "^5.19.0",
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-remark": "^5.19.0",

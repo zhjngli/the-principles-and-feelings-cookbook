@@ -23,6 +23,7 @@ It doesn't make sense to make [dumpling skins](/recipes/homemade-dumpling-skins)
   * salt
   * MSG
   * white pepper
+  * (optional) garlic and ginger
   * (optional) other spices that go well with the meat
 * For folding dumplings:
   * friends
@@ -48,7 +49,21 @@ For the most part, you just need to chop up whatever ingredients you want to add
 - Think about flavor profiles when combining these ingredients.
 - For ingredients that have a lot of water, you'll need to get that moisture out first, so that the resulting filling doesn't becoming a watery mess.
 
+Here are some classic combinations:
+- Pork and cabbage
+- Pork and Chinese chives
+- Pork, shrimp, and Chinese chives
+- Lamb, mushroom, carrot
 
+#### Removing moisture from veggies
+
+It's important to remove moisture from veggies that you add so that the filling isn't too watery after cooking. For mushroom and carrot, you can chop it finely, and lightly fry them in some oil to sweat out the moisture. For cabbage, chop it finely, and toss it in salt to draw out the moisture. Then wring the cabbage mostly try before folding it into the meat.
+
+### Folding dumplings
+
+Get your friends together to fold dumplings. If you can't get a lot of friends together, like me, don't make dumplings too often. It takes too long.
+
+I could try to describe the process of folding in writing, but I've tried to explain it to friends in person and it barely works, so I won't try. Just look up a video or something.
 
 ## Final thoughts
 

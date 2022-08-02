@@ -33,7 +33,9 @@ Roll out the dough to rectangular-ish shape, with a thickness slightly thicker t
 
 Finally, pull each individual log until it reaches the desired thickness, or before it snaps. Boil all these noodles!
 
-## Notes
+## Final notes
 
+- I purposely didn't include any sauces or soups because this is meant to be a general preparation. Feel free to use these noodles with any sauce or soup that you like!
 - It's important to keep the dough from drying out throughout the process. Dry dough becomes more brittle and easier to snap when pulling.
-- 
+- When pulling the individual noodles separately, you'll likely need a few work stations just to keep things moving along. Since it's not as efficient, pull noodles until you have 1-2 servings. Then boil those noodles, and pull the next batch of noodles. Drain the boiled noodles, toss lightly in oil so that they don't stick together, or serve immediately.
+- I believe two things are preventing me from being able to pull a bowl of noodles at once: 1) lack of technique, and 2) perhaps something in the dough making process (missing ingredient? more rest?) that makes the dough more resilient to breaking. If you have tips for either of these things, please [let me know](/contact)!

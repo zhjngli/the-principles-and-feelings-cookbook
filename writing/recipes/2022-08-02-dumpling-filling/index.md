@@ -60,6 +60,12 @@ Get your friends together to fold dumplings. If you can't get a lot of friends t
 
 I could try to describe the process of folding in writing, but I've tried to explain it to friends in person and it barely works, so I won't try. Just look up a video or something.
 
+### Cooking or freezing
+
+One great benefit of making dumplings with friends, is you can make a lot, and save it for later, or give it to your friends too so that they'll come back for your food. Lightly dust the dumplings with flour and freeze them on a tray so that they don't stick together. Once frozen, just keep it in an airtight bag or container.
+
+You can also [cook the dumplings](/recipes/cooking-dumplings) immediately, since you and your friends are probably hungry by now.
+
 ## Final thoughts
 
 You could totally make beef or lamb dumplings too. They're not unknown in the realm of Chinese dumplings, but I usually just make dumplings with ground pork. Of course, with different meats, different spices would complement the flavor profile of the meat. Use your [feelings](/principles/cooking-with-feelings) or understanding of different flavor profiles to come up with unique takes on dumplings! If you want to try Italian seasonings, since they've got some pretty good sausages over there, why not? I don't think dumplings are local to Chinese cuisine; there's some form of meat filling wrapped in a dough ball in every cuisine.

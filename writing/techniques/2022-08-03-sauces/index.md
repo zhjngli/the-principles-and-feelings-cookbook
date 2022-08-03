@@ -5,6 +5,7 @@ tags:
   - sauce
   - stir-fry
   - flavor
+  - ingredient
 date: 2022-08-03T21:27:53.405Z
 ---
 Some common sauces I use when I [stir-fry veggies](/recipes/veggie-stir-fry-template). Often used with other [base flavorings](/techniques/base-flavorings) to boost the existing flavor or draw out more flavor. Too much sauce isn't always a good thing, so be picky and experiment with what works.

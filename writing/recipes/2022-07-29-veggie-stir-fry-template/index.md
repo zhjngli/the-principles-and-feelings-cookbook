@@ -26,7 +26,7 @@ In a wok, heat up oil and add the [base ingredients](/techniques/base-flavorings
 
 Add in your veggies and stir-fry. The veggies will likely start to sweat some moisture if you're on a weak stove. This is a major transgression for true wok technique, the goal of a stir-fry is to slightly char the outside of the food for flavor, and lock in the moisture. But if you care that much go get a portable burner or something.
 
-When the veggies are mostly done, add in your seasonings or your sauce. My mom says adding the salt late in the stir-fry preserves the bright green of the veggie. I've never tested this, but who am I to distrust the woman who fed me for most of my life? When adding the sauce, make sure to coat the veggies, and let the heat of the wok cook it a little so there's more complex roasted flavors, and less moisture.
+When the veggies are mostly done, add in your seasonings or your [sauce](/techniques/sauces). My mom says adding the salt late in the stir-fry preserves the bright green of the veggie. I've never tested this, but who am I to distrust the woman who fed me for most of my life? When adding the sauce, make sure to coat the veggies, and let the heat of the wok cook it a little so there's more complex roasted flavors, and less moisture.
 
 ## Table of combinations
 

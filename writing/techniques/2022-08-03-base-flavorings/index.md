@@ -4,9 +4,10 @@ slug: base flavorings
 tags:
   - flavor
   - ingredient
+  - stir-fry
 date: 2022-08-03T21:24:09.574Z
 ---
-Just some samples of base ingredients that I use. Get a feeling for what I use and why I use it, and experiment with the spices or ingredients that you like.
+Just some samples of base ingredients that I use when I [stir-fry veggies](/recipes/veggie-stir-fry-template). Get a feeling for what I use and why I use it, and experiment with the spices or ingredients that you like.
 
 ## Garlic
 

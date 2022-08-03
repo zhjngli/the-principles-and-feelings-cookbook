@@ -15,7 +15,8 @@ This is one of those things that have so many possible combinations and preparat
 
 1. A veggie (I'll list common veggies that I use in a table below)
 1. A base ingredient (Garlic is almost always used. Other times I'll use other ingredients to add extra complexity or an umami boost.)
-1. Simple seasonings (salt, pepper, MSG, sugar), or a sauce (soy sauce, oyster sauce, or some mixture)
+1. Simple seasonings (salt, pepper, MSG, sugar)
+1. A sauce (soy sauce, oyster sauce, or some mixture)
 
 ## Preparation
 

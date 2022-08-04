@@ -40,56 +40,12 @@ Mangos and habaneros both give warm orange tones, and now it's one of the most p
 
 Here's a variety of foods and their colors that I listed off the top of my head. It's not exhaustive at all, but there's generally a bias towards the warmer side of the color spectrum.
 
-### Browns
-
-* star anise (and a whole host of other spices)
-* soy sauce
-* oyster sauce
-* chestnut (also yellow)
-* most nuts
-* mushroom (could also be white or black depending on variety)
-* potato
-
-### Reds
-
-* red meat (beef, lamb, pork, duck)
-* chili flakes
-* pickled chilis
-* tomato
-* lotus root
-* onion (also orange or yellow)
-
-### Oranges
-
-* dried shrimp
-* carrots
-* Chinese pumpkin
-* onion (also red or yellow)
-
-### Yellows
-
-* ginger
-* tofu skin
-* bean sprouts
-* chestnut (also brown)
-* onion (also red or orange)
-
-### Greens
-
-* scallions
-* leeks
-* most leafy veggies
-
-### Whites
-
-* fish
-* chicken
-* mushroom (could also be brown or black depending on variety)
-* sesame (also black)
-
-### Blacks
-
-* mushroom (could also be brown or white depending on variety)
-* fermented black bean
-* sesame (also white)
-
+| Color   | Ingredients                                                                                                                                                                                                                                 |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Browns  | <ul><li>star anise (and a whole host of other spices)</li><li>soy sauce</li><li>oyster sauce</li><li>chestnut (also yellow)</li><li>most nuts</li><li>mushroom (could also be white or black depending on variety)</li><li>potato</li></ul> |
+| Reds    | <ul><li>red meat (beef, lamb, pork, duck)</li><li>chili flakes</li><li>pickled chilis</li><li>tomato</li><li>lotus root</li><li>onion (also orange or yellow)</li></ul>                                                                     |
+| Oranges | <ul><li>dried shrimp</li><li>carrots</li><li>Chinese pumpkin</li><li>onion (also red or yellow)</li></ul>                                                                                                                                   |
+| Yellows | <ul><li>ginger</li><li>tofu skin</li><li>bean sprouts</li><li>chestnut (also brown)</li><li>onion (also red or orange)</li></ul>                                                                                                            |
+| Greens  | <ul><li>scallions</li><li>leeks</li><li>most leafy veggies</li></ul>                                                                                                                                                                        |
+| Whites  | <ul><li>fish</li><li>chicken</li><li>mushroom (could also be brown or black depending on variety)</li><li>sesame (also black)</li></ul>                                                                                                     |
+| Blacks  | <ul><li>mushroom (could also be brown or white depending on variety)</li><li>fermented black bean</li><li>sesame (also white)</li></ul>                                                                                                     |

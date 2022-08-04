@@ -11,8 +11,9 @@ If you've had any chance to study graphic design or paintings or art, you've pro
 I find that this is generally applicable to cooking as well. Not in the sense of plating my food to evoke emotions (this is directly applicable to color theory), but in the sense that ingredients often work together because the colors of the ingredients work together (in a color theoretic way). By no means is this scientifically rigorous, and it sounds ridiculous, but this has been a helpful rule of thumb when trying to combine ingredients at home.
 
 Don't take this principle too far, it doesn't work at the extremes. After all, very few ingredients have cool hues like blue or purple. But, as your [feelings](/principles/cooking-with-feelings) for this principle develop and mature, you'll be more prepared to think of different ingredient combinations, the cases where this principle works, and the cases where this principle falls apart. For now, I'll  illustrate two styles of cooking with color:
+
 1. Cook with analogous colors
-1. Cook with contrasting colors
+2. Cook with contrasting colors
 
 I've also listed a smattering of ingredients and their associated colors at the bottom for you to get a better sense of how to associate ingredients and their colors.
 
@@ -61,7 +62,7 @@ Chinese wintermelon soup is made with pork (red), wintermelon (green or white), 
 Here's a variety of foods and their colors that I listed off the top of my head. It's not exhaustive at all, but there's generally a bias towards the warmer side of the color spectrum.
 
 | Color   | Ingredients                                                                                                                                                                                                                                                                                   |
-|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Browns  | <ul><li>star anise (and a whole host of other spices)</li><li>soy sauce (and dark soy sauce)</li><li>oyster sauce</li><li>Chinese aged vinegar</li><li>chestnut (also yellow)</li><li>most nuts</li><li>mushroom (could also be white or black depending on variety)</li><li>potato</li></ul> |
 | Reds    | <ul><li>red meat (beef, lamb, pork, duck)</li><li>chili flakes</li><li>pickled chilis</li><li>tomato</li><li>lotus root</li><li>onion (also orange or yellow)</li></ul>                                                                                                                       |
 | Oranges | <ul><li>dried shrimp</li><li>carrots</li><li>Chinese pumpkin</li><li>onion (also red or yellow)</li></ul>                                                                                                                                                                                     |
@@ -71,3 +72,7 @@ Here's a variety of foods and their colors that I listed off the top of my head.
 | Blacks  | <ul><li>mushroom (could also be brown or white depending on variety)</li><li>fermented black bean</li><li>sesame (also white)</li></ul>                                                                                                                                                       |
 
 You can also ask yourself, what feeling does each ingredient give me? Does it make me feel warm? Does it fill me with fervor? Does it calm me down? Can I compile similar feelings together to create another dish? Always be developing your [feelings](/principles/cooking-with-feelings) when cooking!
+
+## Do I have some form of [synesthesia](https://en.wikipedia.org/wiki/Synesthesia)?
+
+No. At least I don't think so.

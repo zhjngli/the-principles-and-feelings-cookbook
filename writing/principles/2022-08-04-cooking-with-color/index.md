@@ -11,7 +11,7 @@ If you've had any chance to study graphic design or paintings or art, you've pro
 
 I find that this is generally applicable to cooking as well. Not in the sense of plating my food to evoke emotions (this is directly applicable to color theory), but in the sense that ingredients often work together because the colors of the ingredients work together (in a color theoretic way). By no means is this scientifically rigorous, and it sounds ridiculous, but this has been a helpful rule of thumb when trying to combine ingredients at home.
 
-Don't take this principle too far, it doesn't work at the extremes. After all, very few ingredients have cool hues like blue or purple. But, as your [feelings](/principles/cooking-with-feelings) for this principle develop and mature, you'll be more prepared to think of different ingredient combinations, the cases where this principle works, and the cases where this principle falls apart. For now, I'll  illustrate two styles of cooking with color:
+Don't take this principle too far, it doesn't work at the extremes. After all, very few ingredients have cool hues like blue or purple. But, as your [feelings](/principles/cooking-with-feelings) for this principle develop and mature, you'll be more prepared to think of different ingredient combinations, the cases where this principle works, and the cases where this principle falls apart. For now, I'll illustrate two styles of cooking with color:
 
 1. Cook with analogous colors
 2. Cook with contrasting colors

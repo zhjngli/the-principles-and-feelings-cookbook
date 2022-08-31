@@ -4,6 +4,7 @@ slug: steamed lobster
 tags:
   - lobster
   - steaming
+  - meat
 date: 2022-08-31T07:56:07.271Z
 ---
 This might be the easiest recipe ever. And it's pretty high yield in terms of taste too.

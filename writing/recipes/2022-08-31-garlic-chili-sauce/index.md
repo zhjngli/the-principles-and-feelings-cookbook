@@ -3,7 +3,6 @@ title: Garlic Chili Sauce
 slug: garlic chili sauce
 tags:
   - sauce
-  - ""
 date: 2022-08-31T07:26:33.735Z
 ---
 A pretty simple sauce that tastes great and works well for lots of savory meat dishes. You could probably make this in bulk and save it in the fridge.
@@ -13,7 +12,7 @@ A pretty simple sauce that tastes great and works well for lots of savory meat d
 1. Garlic
 1. Chili powder (or dried chilis)
 1. Sichuan peppercorns
-1. A neutral oil
+1. Oil (lard or butter would probably be tasty instead of a neutral oil)
 1. Some lemon juice
 1. Salt
 1. MSG

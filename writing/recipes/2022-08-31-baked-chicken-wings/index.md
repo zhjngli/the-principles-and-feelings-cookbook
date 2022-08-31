@@ -7,9 +7,11 @@ tags:
   - meat
 date: 2022-08-31T07:16:44.417Z
 ---
+I like baking meat because it's so hands off. This sort of evolved from a baked chicken thighs recipe that I made all the time in college.
+
 ## Stuff you'll need
 
-1. chicken wings
+1. chicken wings (or thighs, or drums, or whatever)
 1. salt
 1. (optionally) MSG
 1. (optionally) cooking wine

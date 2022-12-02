@@ -10,7 +10,7 @@ A quintessential Chinese dish. The secret to a good tomato and egg stir fry is k
 
 ## stuff you’ll need
 
-- tomatoes
+- Tomatoes
 - Eggs
 - Ketchup
 - Oil

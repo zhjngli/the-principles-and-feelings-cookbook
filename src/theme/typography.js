@@ -30,6 +30,12 @@ const options = {
       'a:hover': {
         borderBottom: `2px solid ${colors.linkHover}`
       },
+      'a.anchor': {
+        borderBottom: 0
+      },
+      'a.anchor:hover': {
+        borderBottom: 0
+      },
       blockquote: {
         borderLeft: `${rhythm(1 / 4)} solid ${colors.smoke}`,
         color: `${colors.calm}`,

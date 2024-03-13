@@ -7,9 +7,9 @@ date: 2024-03-13T08:25:49.450Z
 ---
 A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour, spicy, funky, and infinitely satisfying. Paraphrasing a friend, "the first time I had this was a core memory."
 
-#﻿# stuff you'll need
+## stuff you'll need
 
--﻿ rice noodles
+\-﻿ rice noodles
 -﻿ pork (ideally the weird stuff, kidney, liver, etc. but sliced pork shoulder or ground pork can also work)
 -﻿ tomatoes
 -﻿ sour bamboo shoots
@@ -22,7 +22,7 @@ A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour
 -﻿ (optional) chicken stock
 -﻿ (optional) wood ear, mushrooms, any other accoutrements for the soup
 
-#﻿# preparation
+## preparation
 
 T﻿he hardest work for this dish is doing all of the prep. You'll need to really really finely mince the garlic, ginger, fermented black beans, and pickled peppers. This becomes the base flavor of the soup, and you don't want to have large chunks 
 of any of it floating around.
@@ -39,10 +39,10 @@ O﻿nce all the flavors and ingredients have gotten a chance to mingle and cross
 
 S﻿eparately boil some water and cook the rice noodles. Serve the soup together with your rice noodles!
 
-#﻿# notes
+## notes
 
 I know this dish as a street food, and as with street foods, every stall has a different take. Maybe try stir frying the tomatoes first. Or stir fry the pork first. Or stir fry the sour bamboo shoots first. Use your [feelings](/principles/cooking-with-feelings) to figure out what works for you.
 
-#﻿# references
+## references
 
--﻿ https://en.wikipedia.org/wiki/Laoyou_rice_noodles
+\-﻿ https://en.wikipedia.org/wiki/Laoyou_rice_noodles

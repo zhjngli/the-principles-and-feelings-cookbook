@@ -9,18 +9,18 @@ A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour
 
 ## stuff you'll need
 
-\-﻿ rice noodles
--﻿ pork (ideally the weird stuff, kidney, liver, etc. but sliced pork shoulder or ground pork can also work)
--﻿ tomatoes
--﻿ sour bamboo shoots
--﻿ garlic
--﻿ ginger
--﻿ fermented black bean
--﻿ pickled peppers
--﻿ soy sauce
--﻿ shao xing wine
--﻿ (optional) chicken stock
--﻿ (optional) wood ear, mushrooms, any other accoutrements for the soup
+1. rice noodles
+2. pork (ideally the weird stuff, kidney, liver, etc. but sliced pork shoulder or ground pork can also work)
+3. t﻿omatos
+4. s﻿our bamboo shoots
+5. g﻿arlic
+6. g﻿inger
+7. f﻿ermented black beans
+8. p﻿ickled peppers
+9. s﻿oy sauce
+10. s﻿hao xing wine
+11. (﻿optional) chicken stock
+12. (﻿optional) wood ear, mushrooms, any other accoutrements for the soup
 
 ## preparation
 
@@ -45,4 +45,4 @@ I know this dish as a street food, and as with street foods, every stall has a d
 
 ## references
 
-\-﻿ https://en.wikipedia.org/wiki/Laoyou_rice_noodles
+* https://en.wikipedia.org/wiki/Laoyou_rice_noodles

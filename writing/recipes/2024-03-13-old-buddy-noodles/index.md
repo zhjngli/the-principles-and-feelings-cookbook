@@ -11,7 +11,7 @@ A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour
 
 1. rice noodles
 2. pork (ideally the weird stuff, kidney, liver, etc. but sliced pork shoulder or ground pork can also work)
-3. t﻿omatos
+3. t﻿omatoes
 4. s﻿our bamboo shoots
 5. g﻿arlic
 6. g﻿inger

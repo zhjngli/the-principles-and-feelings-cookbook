@@ -29,6 +29,9 @@ export default function Layout({ children }) {
             <Title />
           </div>
           <div css={styles.navLinksContainer}>
+            <Link to={'/menu'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
+              menu
+            </Link>
             <Link to={'/principles'} css={styles.navLink} activecss={String(styles.activeNavLink)}>
               principles
             </Link>

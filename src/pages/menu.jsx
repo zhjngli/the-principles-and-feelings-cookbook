@@ -17,14 +17,10 @@ export default function Menu({ data }) {
           <ul>
             {(section.items || []).map((item) => (
               <li key={item.name}>
-                <strong>{item.name}</strong>
+                <strong>
+                  {item.recipe ? <Link to={`/${item.recipe}`}>{item.name}</Link> : item.name}
+                </strong>
                 {item.description && <span> — {item.description}</span>}
-                {item.recipe && (
-                  <span>
-                    {' '}
-                    <Link to={`/${item.recipe}`}>view recipe →</Link>
-                  </span>
-                )}
               </li>
             ))}
           </ul>

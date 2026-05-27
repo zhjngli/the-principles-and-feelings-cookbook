@@ -29,7 +29,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "gatsby": "^4.19.0",
+    "gatsby": "^4.25.9",
     "gatsby-plugin-catch-links": "^4.19.0",
     "gatsby-plugin-emotion": "^7.19.0",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",

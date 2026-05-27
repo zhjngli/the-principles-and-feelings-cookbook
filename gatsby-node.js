@@ -150,13 +150,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     reporter.panicOnBuild(`Error while running menu validation GraphQL query.`);
     return;
   }
+  if (!menuResult.data.menuYaml) {
+    reporter.panicOnBuild(
+      `Menu data not found. Is src/menu/menu.yml present and being sourced as a menuYaml node?`
+    );
+    return;
+  }
   const knownSlugs = new Set(
     menuResult.data.allMarkdownRemark.edges
       .map((edge) => edge.node.fields && edge.node.fields.slug)
       .filter(Boolean)
       .map((slug) => slug.replace(/^\//, ''))
   );
-  const menuSections = (menuResult.data.menuYaml && menuResult.data.menuYaml.sections) || [];
+  const menuSections = menuResult.data.menuYaml.sections || [];
   menuSections.forEach((section) => {
     (section.items || []).forEach((item) => {
       if (item.recipe && !knownSlugs.has(item.recipe)) {

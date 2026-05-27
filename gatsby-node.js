@@ -125,6 +125,48 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
+  // Validate that every menu item's `recipe:` reference resolves to a known markdown slug.
+  const menuResult = await graphql(`{
+    menuYaml {
+      sections {
+        name
+        items {
+          name
+          recipe
+        }
+      }
+    }
+    allMarkdownRemark {
+      edges {
+        node {
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }`);
+  if (menuResult.errors) {
+    reporter.panicOnBuild(`Error while running menu validation GraphQL query.`);
+    return;
+  }
+  const knownSlugs = new Set(
+    menuResult.data.allMarkdownRemark.edges
+      .map((edge) => edge.node.fields && edge.node.fields.slug)
+      .filter(Boolean)
+      .map((slug) => slug.replace(/^\//, ''))
+  );
+  const menuSections = (menuResult.data.menuYaml && menuResult.data.menuYaml.sections) || [];
+  menuSections.forEach((section) => {
+    (section.items || []).forEach((item) => {
+      if (item.recipe && !knownSlugs.has(item.recipe)) {
+        reporter.panicOnBuild(
+          `Menu item "${item.name}" in section "${section.name}" references recipe "${item.recipe}", but no such slug exists. Check src/menu/menu.yml.`
+        );
+      }
+    });
+  });
+
   return null;
 };
 

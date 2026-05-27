@@ -97,6 +97,15 @@ module.exports = {
       },
       __key: 'about'
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'menu',
+        path: `${__dirname}/src/menu/`
+      },
+      __key: 'menu'
+    },
+    'gatsby-transformer-yaml',
     'gatsby-plugin-offline', // after manifest plugin
     {
       resolve: 'gatsby-plugin-no-javascript-utils',

@@ -6,7 +6,7 @@ tags:
   - tilapia
   - mushroom
   - pepper
-  - fry
+  - pan-fry
 date: 2026-05-29T08:56:40.001Z
 ---
 t﻿ilapia

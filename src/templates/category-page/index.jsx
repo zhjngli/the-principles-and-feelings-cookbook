@@ -19,10 +19,7 @@ export default function CategoryPage({ data, pageContext }) {
 
 export const pageQuery = graphql`
   query ($category: String!) {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: ASC }
-      filter: { fields: { category: { eq: $category } } }
-    ) {
+    allMarkdownRemark(sort: { frontmatter: { date: ASC } }, filter: { fields: { category: { eq: $category } } }) {
       totalCount
       edges {
         node {

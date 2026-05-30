@@ -1,0 +1,13 @@
+---
+import { getCollection, render } from 'astro:content'
+import Base from '../layouts/Base.astro'
+import Seo from '../components/Seo.astro'
+
+const aboutEntries = await getCollection('about')
+const about = aboutEntries[0]
+const { Content } = await render(about)
+---
+<Base>
+  <Seo slot="head" />
+  <Content />
+</Base>

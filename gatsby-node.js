@@ -6,7 +6,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let result = await graphql(`{
     allMarkdownRemark (
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { fields: { category: { ne: "about" } } }
     ) {
       edges {
@@ -70,7 +70,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const categoryQueries = categories.map((category) => {
     return graphql(`{
       allMarkdownRemark (
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { frontmatter: { date: DESC } }
         filter: { fields: { category: { eq: "${category}" } } }
       ) {
         edges {

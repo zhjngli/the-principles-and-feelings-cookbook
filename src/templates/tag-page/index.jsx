@@ -45,10 +45,7 @@ export default function TagPage({ data, pageContext }) {
 
 export const pageQuery = graphql`
   query ($tag: String!) {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
-    ) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }, filter: { frontmatter: { tags: { in: [$tag] } } }) {
       edges {
         node {
           fields {

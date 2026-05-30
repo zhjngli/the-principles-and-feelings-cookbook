@@ -11,7 +11,7 @@ module.exports = {
   },
   trailingSlash: 'never',
   plugins: [
-    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-decap-cms',
     'gatsby-plugin-emotion',
     'gatsby-plugin-gatsby-cloud',
     'gatsby-plugin-image',

@@ -1,35 +1,35 @@
 ---
-import { getCollection, render, type CollectionEntry } from 'astro:content'
-import Base from '../../layouts/Base.astro'
-import Seo from '../../components/Seo.astro'
-import { postSlug, slugify } from '../../lib/slugify'
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Seo from '../../components/Seo.astro';
+import { postSlug, slugify } from '../../lib/slugify';
 
-type Cat = 'recipes' | 'principles' | 'techniques'
+type Cat = 'recipes' | 'principles' | 'techniques';
 
 export async function getStaticPaths() {
-  const cats: Cat[] = ['recipes', 'principles', 'techniques']
-  const paths = []
+  const cats: Cat[] = ['recipes', 'principles', 'techniques'];
+  const paths = [];
   for (const category of cats) {
-    const entries = (await getCollection(category)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+    const entries = (await getCollection(category)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
     entries.forEach((entry, i) => {
       paths.push({
         params: { category, slug: postSlug(entry.data.slug) },
         props: { category, entry, next: entries[i + 1] ?? null, prev: entries[i - 1] ?? null }
-      })
-    })
+      });
+    });
   }
-  return paths
+  return paths;
 }
 
 const { category, entry, next, prev } = Astro.props as {
-  category: Cat
-  entry: CollectionEntry<Cat>
-  next: CollectionEntry<Cat> | null
-  prev: CollectionEntry<Cat> | null
-}
-const { Content } = await render(entry)
-const path = `/${category}/${postSlug(entry.data.slug)}`
-const tags = entry.data.tags ?? []
+  category: Cat;
+  entry: CollectionEntry<Cat>;
+  next: CollectionEntry<Cat> | null;
+  prev: CollectionEntry<Cat> | null;
+};
+const { Content } = await render(entry);
+const path = `/${category}/${postSlug(entry.data.slug)}`;
+const tags = entry.data.tags ?? [];
 ---
 
 <Base title={entry.data.title}>

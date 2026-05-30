@@ -4,10 +4,10 @@ export function slugify(input: string): string {
     .replace(/[^a-zA-Z0-9]+/g, ' ')
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, '-')
+    .replace(/\s+/g, '-');
 }
 
 // Post slug: frontmatter `slug` with spaces -> dashes (matches legacy gatsby-node.js).
 export function postSlug(frontmatterSlug: string): string {
-  return String(frontmatterSlug).replace(/ /g, '-')
+  return String(frontmatterSlug).replace(/ /g, '-');
 }

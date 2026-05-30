@@ -1,20 +1,20 @@
 ---
-import { getCollection } from 'astro:content'
-import Base from '../../layouts/Base.astro'
-import Seo from '../../components/Seo.astro'
-import PostList from '../../components/PostList.astro'
-import { postSlug } from '../../lib/slugify'
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Seo from '../../components/Seo.astro';
+import PostList from '../../components/PostList.astro';
+import { postSlug } from '../../lib/slugify';
 
-type Cat = 'recipes' | 'principles' | 'techniques'
+type Cat = 'recipes' | 'principles' | 'techniques';
 
 export async function getStaticPaths() {
-  const cats: Cat[] = ['recipes', 'principles', 'techniques']
-  return cats.map((category) => ({ params: { category }, props: { category } }))
+  const cats: Cat[] = ['recipes', 'principles', 'techniques'];
+  return cats.map((category) => ({ params: { category }, props: { category } }));
 }
 
-const { category } = Astro.props as { category: Cat }
-const entries = (await getCollection(category)).sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf())
-const posts = entries.map((e) => ({ href: `/${category}/${postSlug(e.data.slug)}`, title: e.data.title }))
+const { category } = Astro.props as { category: Cat };
+const entries = (await getCollection(category)).sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+const posts = entries.map((e) => ({ href: `/${category}/${postSlug(e.data.slug)}`, title: e.data.title }));
 ---
 
 <Base title={category}>

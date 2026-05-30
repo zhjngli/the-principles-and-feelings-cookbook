@@ -1,27 +1,27 @@
 ---
-import '@fontsource/open-sans/400.css'
-import '@fontsource/open-sans/600.css'
-import '@fontsource/open-sans/300.css'
-import '@fontsource/open-sans/300-italic.css'
-import '@fontsource/yellowtail/400.css'
-import '../styles/global.css'
-import Title from '../components/Title.astro'
-import Analytics from '../components/Analytics.astro'
+import '@fontsource/open-sans/400.css';
+import '@fontsource/open-sans/600.css';
+import '@fontsource/open-sans/300.css';
+import '@fontsource/open-sans/300-italic.css';
+import '@fontsource/yellowtail/400.css';
+import '../styles/global.css';
+import Title from '../components/Title.astro';
+import Analytics from '../components/Analytics.astro';
 
 interface Props {
-  title?: string
+  title?: string;
 }
-const { title } = Astro.props
-const siteTitle = 'the principles and feelings cookbook'
-const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle
-const path = Astro.url.pathname
-const isActive = (base: string) => path === base || path.startsWith(base + '/')
+const { title } = Astro.props;
+const siteTitle = 'the principles and feelings cookbook';
+const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+const path = Astro.url.pathname;
+const isActive = (base: string) => path === base || path.startsWith(base + '/');
 const navLinks = [
   { href: '/principles', label: 'principles' },
   { href: '/recipes', label: 'recipes' },
   { href: '/techniques', label: 'techniques' },
   { href: '/tags', label: 'tags' }
-]
+];
 ---
 
 <!doctype html>
@@ -31,7 +31,6 @@ const navLinks = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/icons/master-512.png" />
     <title>{browserTitle}</title>
-    <meta name="description" content={siteTitle} />
     <slot name="head" />
     <Analytics />
   </head>

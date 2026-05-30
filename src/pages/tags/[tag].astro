@@ -1,39 +1,39 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content'
-import Base from '../../layouts/Base.astro'
-import Seo from '../../components/Seo.astro'
-import PostList from '../../components/PostList.astro'
-import { slugify, postSlug } from '../../lib/slugify'
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Seo from '../../components/Seo.astro';
+import PostList from '../../components/PostList.astro';
+import { slugify, postSlug } from '../../lib/slugify';
 
-const cats = ['recipes', 'principles', 'techniques'] as const
-type Cat = (typeof cats)[number]
-type Entry = CollectionEntry<Cat> & { _cat: Cat }
+const cats = ['recipes', 'principles', 'techniques'] as const;
+type Cat = (typeof cats)[number];
+type Entry = CollectionEntry<Cat> & { _cat: Cat };
 
 export async function getStaticPaths() {
-  const cats = ['recipes', 'principles', 'techniques'] as const
-  const byTagSlug = new Map<string, { tag: string; entries: Entry[] }>()
+  const cats = ['recipes', 'principles', 'techniques'] as const;
+  const byTagSlug = new Map<string, { tag: string; entries: Entry[] }>();
   for (const c of cats) {
     for (const e of await getCollection(c)) {
       for (const tag of e.data.tags ?? []) {
-        const key = slugify(tag)
-        if (!byTagSlug.has(key)) byTagSlug.set(key, { tag, entries: [] })
-        byTagSlug.get(key)!.entries.push({ ...e, _cat: c } as Entry)
+        const key = slugify(tag);
+        if (!byTagSlug.has(key)) byTagSlug.set(key, { tag, entries: [] });
+        byTagSlug.get(key)!.entries.push({ ...e, _cat: c } as Entry);
       }
     }
   }
   return [...byTagSlug.entries()].map(([tagSlug, { tag, entries }]) => ({
     params: { tag: tagSlug },
     props: { tag, entries }
-  }))
+  }));
 }
 
-const { tag, entries } = Astro.props as { tag: string; entries: Entry[] }
-const grouped: Record<string, Entry[]> = {}
-for (const e of entries) (grouped[e._cat] ??= []).push(e)
+const { tag, entries } = Astro.props as { tag: string; entries: Entry[] };
+const grouped: Record<string, Entry[]> = {};
+for (const e of entries) (grouped[e._cat] ??= []).push(e);
 for (const c of Object.keys(grouped)) {
-  grouped[c].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  grouped[c].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
-const categories = Object.keys(grouped).sort()
+const categories = Object.keys(grouped).sort();
 ---
 
 <Base title={tag}>

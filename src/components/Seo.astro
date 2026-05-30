@@ -1,20 +1,20 @@
 ---
 interface Props {
-  title?: string
-  description?: string
-  path?: string
-  image?: string
+  title?: string;
+  description?: string;
+  path?: string;
+  image?: string;
 }
-const { title, description, path, image } = Astro.props
-const siteTitle = 'the principles and feelings cookbook'
-const siteDesc = 'the principles and feelings cookbook'
-const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://principles-cookbook.netlify.app'
+const { title, description, path, image } = Astro.props;
+const siteTitle = 'the principles and feelings cookbook';
+const siteDesc = 'the principles and feelings cookbook';
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://principles-cookbook.netlify.app';
 const seo = {
   title: `${siteTitle}${title ? ` | ${title}` : ''}`,
   description: description || siteDesc,
   url: `${siteUrl}${path || ''}`,
   image: image ? `${siteUrl}${image}` : undefined
-}
+};
 ---
 
 <link rel="canonical" href={seo.url} />

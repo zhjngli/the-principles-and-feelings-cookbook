@@ -13,11 +13,10 @@ export async function getStaticPaths() {
 }
 
 const { category } = Astro.props as { category: Cat }
-const entries = (await getCollection(category)).sort(
-  (a, b) => a.data.date.valueOf() - b.data.date.valueOf()
-)
+const entries = (await getCollection(category)).sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf())
 const posts = entries.map((e) => ({ href: `/${category}/${postSlug(e.data.slug)}`, title: e.data.title }))
 ---
+
 <Base title={category}>
   <Seo slot="head" title={category} path={`/${category}`} />
   <h1>{category}</h1>

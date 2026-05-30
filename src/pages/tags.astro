@@ -13,12 +13,19 @@ for (const c of cats) {
 }
 const tags = [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]))
 ---
+
 <Base title="tags">
   <Seo slot="head" title="tags" path="/tags" />
   <h1>all tags</h1>
   <ul>
-    {tags.map(([tag, count]) => (
-      <li><a href={`/tags/${slugify(tag)}`}>{tag} ({count})</a></li>
-    ))}
+    {
+      tags.map(([tag, count]) => (
+        <li>
+          <a href={`/tags/${slugify(tag)}`}>
+            {tag} ({count})
+          </a>
+        </li>
+      ))
+    }
   </ul>
 </Base>

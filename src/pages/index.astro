@@ -7,6 +7,7 @@ const aboutEntries = await getCollection('about')
 const about = aboutEntries[0]
 const { Content } = await render(about)
 ---
+
 <Base>
   <Seo slot="head" />
   <Content />

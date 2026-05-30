@@ -9,9 +9,18 @@ const postSchema = z.object({
   date: z.coerce.date()
 })
 
-const recipes = defineCollection({ loader: glob({ pattern: '**/*.md', base: './writing/recipes' }), schema: postSchema })
-const principles = defineCollection({ loader: glob({ pattern: '**/*.md', base: './writing/principles' }), schema: postSchema })
-const techniques = defineCollection({ loader: glob({ pattern: '**/*.md', base: './writing/techniques' }), schema: postSchema })
+const recipes = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './writing/recipes' }),
+  schema: postSchema
+})
+const principles = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './writing/principles' }),
+  schema: postSchema
+})
+const techniques = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './writing/techniques' }),
+  schema: postSchema
+})
 
 // `about` has only `title` in frontmatter; unknown keys are stripped by Zod's
 // default object behavior, so no `.passthrough()` (removed in Zod 4) is needed.

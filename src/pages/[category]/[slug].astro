@@ -10,9 +10,7 @@ export async function getStaticPaths() {
   const cats: Cat[] = ['recipes', 'principles', 'techniques']
   const paths = []
   for (const category of cats) {
-    const entries = (await getCollection(category)).sort(
-      (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-    )
+    const entries = (await getCollection(category)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     entries.forEach((entry, i) => {
       paths.push({
         params: { category, slug: postSlug(entry.data.slug) },
@@ -33,35 +31,73 @@ const { Content } = await render(entry)
 const path = `/${category}/${postSlug(entry.data.slug)}`
 const tags = entry.data.tags ?? []
 ---
+
 <Base title={entry.data.title}>
   <Seo slot="head" title={entry.data.title} path={path} />
   <h1 class="post-title">{entry.data.title}</h1>
-  <span class="info">tagged with:{' '}
-    {tags.map((t, i) => (
-      <span><a class="minor" href={`/tags/${slugify(t)}`}>{t}</a>{i < tags.length - 1 ? ', ' : ''}</span>
-    ))}
+  <span class="info"
+    >tagged with:{' '}
+    {
+      tags.map((t, i) => (
+        <span>
+          <a class="minor" href={`/tags/${slugify(t)}`}>
+            {t}
+          </a>
+          {i < tags.length - 1 ? ', ' : ''}
+        </span>
+      ))
+    }
   </span>
   <hr />
   <Content />
   <hr />
   <div class="post-nav">
-    {next && <a class="minor next" href={`/${category}/${postSlug(next.data.slug)}`}>&#8592; {next.data.title}</a>}
-    {prev && <a class="minor prev" href={`/${category}/${postSlug(prev.data.slug)}`}>{prev.data.title} &#8594;</a>}
+    {
+      next && (
+        <a class="minor next" href={`/${category}/${postSlug(next.data.slug)}`}>
+          &#8592; {next.data.title}
+        </a>
+      )
+    }
+    {
+      prev && (
+        <a class="minor prev" href={`/${category}/${postSlug(prev.data.slug)}`}>
+          {prev.data.title} &#8594;
+        </a>
+      )
+    }
   </div>
 </Base>
 <style>
-  .post-title { margin-bottom: 0; }
+  .post-title {
+    margin-bottom: 0;
+  }
   .info {
     font-size: 0.841rem;
     display: block;
     font-style: normal;
     text-align: left;
-    color: hsla(0,0%,50%,1);
+    color: hsla(0, 0%, 50%, 1);
     margin-bottom: 0.45rem;
   }
-  .minor { color: hsla(0,0%,50%,1); border-color: hsla(0,0%,50%,1); }
-  .minor:hover { color: hsla(0,0%,50%,1); border-color: #D70C0C; }
-  .post-nav { font-size: 0.841rem; overflow: auto; }
-  .next { float: left; margin-right: 1rem; }
-  .prev { float: right; margin-left: 1rem; }
+  .minor {
+    color: hsla(0, 0%, 50%, 1);
+    border-color: hsla(0, 0%, 50%, 1);
+  }
+  .minor:hover {
+    color: hsla(0, 0%, 50%, 1);
+    border-color: #d70c0c;
+  }
+  .post-nav {
+    font-size: 0.841rem;
+    overflow: auto;
+  }
+  .next {
+    float: left;
+    margin-right: 1rem;
+  }
+  .prev {
+    float: right;
+    margin-left: 1rem;
+  }
 </style>

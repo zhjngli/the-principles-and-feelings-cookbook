@@ -37,10 +37,10 @@ const categories = Object.keys(grouped).sort()
 ---
 <Base title={tag}>
   <Seo slot="head" title={tag} path={`/tags/${slugify(tag)}`} />
-  <h1>posts tagged with "{tag}"</h1>
+  <h1>posts tagged with “{tag}”</h1>
   {categories.map((c) => (
     <div>
-      <h2>{grouped[c].length} post{grouped[c].length !== 1 ? 's' : ''} under "{c}"</h2>
+      <h2>{grouped[c].length} post{grouped[c].length !== 1 ? 's' : ''} under “{c}”</h2>
       <PostList posts={grouped[c].map((e) => ({ href: `/${c}/${postSlug(e.data.slug)}`, title: e.data.title }))} />
     </div>
   ))}

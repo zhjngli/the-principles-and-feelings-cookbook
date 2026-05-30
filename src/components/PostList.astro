@@ -1,0 +1,13 @@
+---
+interface PostLink { href: string; title: string }
+interface Props { posts: PostLink[] }
+const { posts } = Astro.props
+---
+<ol class="post-list">
+  {posts.map((p) => (
+    <li><a href={p.href}>{p.title}</a></li>
+  ))}
+</ol>
+<style>
+  .post-list { padding-top: 1.8rem; padding-bottom: 1.8rem; list-style-type: decimal; }
+</style>

@@ -32,7 +32,7 @@ export default TagsPageRoute;
 export const pageQuery = graphql`
   query {
     allMarkdownRemark {
-      group(field: frontmatter___tags) {
+      group(field: { frontmatter: { tags: SELECT } }) {
         fieldValue
         totalCount
       }

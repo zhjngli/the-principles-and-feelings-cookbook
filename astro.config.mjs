@@ -6,7 +6,9 @@ import AstroPWA from '@vite-pwa/astro'
 export default defineConfig({
   site: 'https://principles-cookbook.netlify.app',
   trailingSlash: 'never',
-  build: { format: 'directory' },
+  // 'file' (not 'directory') so output is recipes/cooking-dumplings.html, served at the
+  // slash-less URL with a 200 — matching legacy trailingSlash:'never' (no 301 to a trailing slash).
+  build: { format: 'file' },
   markdown: {
     rehypePlugins: [[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }]]
   },

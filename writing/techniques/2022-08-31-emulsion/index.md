@@ -5,6 +5,7 @@ tags:
   - emulsion
 date: 2022-08-31T07:35:58.328Z
 ---
+
 Chemically, emulsion is the process of creating bonds between liquids that don't mix well into something that's more stable. Blah blah.
 
 In terms of cooking, emulsion is effectively a process of making oil and water mix together, so that the result is not a greasy mess, but a creamy sauce or stock.

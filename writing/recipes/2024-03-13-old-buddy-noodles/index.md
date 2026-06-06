@@ -5,6 +5,7 @@ tags:
   - noodles
 date: 2024-03-13T08:25:49.450Z
 ---
+
 A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour, spicy, funky, and infinitely satisfying. Paraphrasing a friend, "the first time I had this was a core memory."
 
 ## stuff you'll need
@@ -24,7 +25,7 @@ A﻿ classic street food noodle dish from my hometown, Nanning! It's umami, sour
 
 ## preparation
 
-T﻿he hardest work for this dish is doing all of the prep. You'll need to really really finely mince the garlic, ginger, fermented black beans, and pickled peppers. This becomes the base flavor of the soup, and you don't want to have large chunks 
+T﻿he hardest work for this dish is doing all of the prep. You'll need to really really finely mince the garlic, ginger, fermented black beans, and pickled peppers. This becomes the base flavor of the soup, and you don't want to have large chunks
 of any of it floating around.
 
 S﻿lice up your pork and marinate it simply with some salt, white pepper, soy sauce, shao xing wine, or whatever you want. Or don't marinate it. But it'll probably be a little better if you marinate it. But also it's your life.
@@ -45,4 +46,4 @@ I know this dish as a street food, and as with street foods, every stall has a d
 
 ## references
 
-* https://en.wikipedia.org/wiki/Laoyou_rice_noodles
+- https://en.wikipedia.org/wiki/Laoyou_rice_noodles

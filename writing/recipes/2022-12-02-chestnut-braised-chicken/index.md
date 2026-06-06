@@ -6,6 +6,7 @@ tags:
   - braise
 date: 2022-12-02T08:31:54.838Z
 ---
+
 A juicy, savory, and slightly sweet dish. Think of it more as a template for [braising](/techniques/braising) than as an exact list of ingredients.
 
 ## stuff you’ll need

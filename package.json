@@ -15,7 +15,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "prettier --write src"
+    "lint": "prettier --write src writing"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3",

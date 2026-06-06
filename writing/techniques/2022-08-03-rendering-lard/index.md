@@ -6,6 +6,7 @@ tags:
   - fat
 date: 2022-08-03T04:37:05.908Z
 ---
+
 Lard is delicious. It adds a meaty richness to any dish, especially if the dish doesn't have as many other meat components. It can be used as a replacement or supplement to any neutral oil when stir frying. And it's surprisingly easy to make if you've got some leftover fat.
 
 You could just buy lard, or buy huge chunks of fat to render, but often when buying meat from the grocery store, there's enough fat trimmings that could be made into some lard for the next stir fry, for example the fat off of pork belly, pork shoulder, or fatty pieces of beef can all be trimmed and used to render lard. When trimming fat from pieces of meat, try to make sure the fat isn't too bloody, so that the blood doesn't cloud the lard when rendering.

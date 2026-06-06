@@ -5,6 +5,7 @@ tags:
   - dumpling
 date: 2022-08-02T06:54:27.898Z
 ---
+
 I've written about [dumpling skins](/recipes/homemade-dumpling-skins) and [dumpling filling](/recipes/dumpling-filling) already. But how do you cook them? The great thing about this is, you don't have to make your own dumplings to cook them, you can buy them from the frozen section of your grocery store too.
 
 ## Boil it

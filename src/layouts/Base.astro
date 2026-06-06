@@ -1,0 +1,155 @@
+---
+import '../styles/global.css';
+import Title from '../components/Title.astro';
+import Analytics from '../components/Analytics.astro';
+
+interface Props {
+  title?: string;
+}
+const { title } = Astro.props;
+const siteTitle = 'the principles and feelings cookbook';
+const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+const path = Astro.url.pathname;
+const isActive = (base: string) => path === base || path.startsWith(base + '/');
+const navLinks = [
+  { href: '/principles', label: 'principles' },
+  { href: '/recipes', label: 'recipes' },
+  { href: '/techniques', label: 'techniques' },
+  { href: '/tags', label: 'tags' }
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href="/fonts/yellowtail-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/open-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/open-sans-latin-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="/icons/master-512.png" />
+    <title>{browserTitle}</title>
+    <slot name="head" />
+    <Analytics />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav-title"><Title /></div>
+          <div class="nav-links">
+            {
+              navLinks.map((l) => (
+                <a href={l.href} class:list={['nav-link', { active: isActive(l.href) }]}>
+                  {l.label}
+                </a>
+              ))
+            }
+          </div>
+          <footer class="footer footer-sidebar">&copy; 2022.</footer>
+        </nav>
+      </header>
+      <main class="main">
+        <slot />
+        <footer class="footer footer-main">&copy; 2022.</footer>
+      </main>
+    </div>
+  </body>
+</html>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin: 1.8rem auto;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-title {
+    margin: 1.8rem -0.45rem 1.8rem 0;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0 0.9rem;
+    border-bottom: 0;
+  }
+  .nav-link:hover {
+    border-bottom: 0;
+    color: #d70c0c;
+  }
+  .nav-link.active {
+    font-weight: 800;
+  }
+  .nav-link.active:hover {
+    color: hsla(0, 0%, 10%, 1);
+  }
+  .main {
+    margin: 0 2.7rem;
+    width: calc(100% - 2.7rem);
+    max-width: calc(45rem - 151.66px);
+    padding-top: 1.8rem;
+  }
+  .footer {
+    padding: 3.6rem 0 5.4rem 0;
+    font-size: 80%;
+  }
+  .footer-main {
+    display: block;
+  }
+  .footer-sidebar {
+    display: none;
+  }
+
+  @media (min-width: 750px) {
+    .container {
+      flex-direction: row;
+      /* The base rule sets align-items: center for the stacked (mobile) layout. Here the
+         container is a row — sidebar + article side by side — so align-items now controls
+         the vertical axis. Left at 'center' it vertically centers the short sidebar against
+         the tall article, pushing the title down (by a different amount per page, since the
+         article's height varies). 'stretch' keeps the sidebar at the top. */
+      align-items: stretch;
+      max-width: 45rem;
+      margin: 0 auto 5.4rem auto;
+      padding: 1.8rem;
+    }
+    .header {
+      display: block;
+      padding-right: 2.7rem;
+      margin: 0;
+    }
+    .nav {
+      align-items: flex-end;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .nav-link {
+      padding: 0.225rem 0;
+    }
+    .main {
+      margin: 0;
+      margin-top: 4.5rem;
+      width: calc(100% - 151.66px);
+      max-width: none;
+    }
+    .footer-main {
+      display: none;
+    }
+    .footer-sidebar {
+      display: block;
+    }
+  }
+</style>

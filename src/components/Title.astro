@@ -1,0 +1,39 @@
+---
+
+---
+
+<a href="/">
+  <div class="title">
+    <div class="line1">&nbsp;&nbsp;the</div>
+    <div class="line2">&nbsp;&nbsp;&nbsp;&nbsp;principles</div>
+    <div class="amp">&amp;</div>
+    <div class="line4">&nbsp;&nbsp;&nbsp;feelings</div>
+    <div class="line5">&nbsp;cookbook</div>
+  </div>
+</a>
+<style>
+  .title {
+    /* establishes the positioning context for the absolutely-placed ampersand below,
+       so the '&' is offset from this title block rather than from the top of the page */
+    position: relative;
+    font-family: 'Yellowtail', cursive;
+    font-size: 200%;
+    line-height: 1.1;
+    margin-right: -1.18125rem;
+  }
+  .line1,
+  .line2 {
+    margin-top: -0.73125rem;
+  }
+  .amp {
+    /* offset down from the title block's top so the '&' sits in the gap between
+       'principles' and 'feelings'. em (relative to this 32px title text) so it tracks
+       the title size; no 'left' so it keeps its natural left edge. */
+    position: absolute;
+    top: 1.38em;
+  }
+  .line4,
+  .line5 {
+    margin-top: -0.39375rem;
+  }
+</style>

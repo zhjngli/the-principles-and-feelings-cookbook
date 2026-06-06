@@ -1,0 +1,104 @@
+---
+import Base from '../layouts/Base.astro';
+import Seo from '../components/Seo.astro';
+---
+
+<Base title="contact">
+  <Seo slot="head" title="contact" path="/contact" />
+  <p>Curious or intrigued enough to have a chat? Fill out this form!</p>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="hidden"><label>Don’t fill this out: <input name="bot-field" /></label></p>
+    <div class="field">
+      <label>Name *</label>
+      <div class="name-row">
+        <div class="first-name">
+          <input type="text" id="first_name" name="first_name" required />
+          <label for="first_name">First name</label>
+        </div>
+        <div>
+          <input type="text" id="last_name" name="last_name" required />
+          <label for="last_name">Last name</label>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <div class="field">
+      <label for="subject">Subject *</label>
+      <input type="text" id="subject" name="subject" required />
+    </div>
+    <div class="field">
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="submit">send message</button>
+  </form>
+</Base>
+<style>
+  .hidden {
+    display: none;
+  }
+  .contact-form {
+    max-width: 24rem;
+    margin: 1.8rem 0;
+    color: hsla(0, 0%, 20%, 1);
+    font-family: 'Open Sans', sans-serif;
+  }
+  .field {
+    margin: 1.35rem 0;
+  }
+  .field > label {
+    font-size: 0.758rem;
+    display: inline-block;
+    margin: 0.45rem 0;
+    line-height: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 0.758rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f3eb;
+    padding: 0.225rem;
+    border: 1px solid hsla(0, 0%, 20%, 1);
+    border-radius: 3px;
+    resize: vertical;
+    font-family: 'Open Sans', sans-serif;
+    color: hsla(0, 0%, 20%, 1);
+  }
+  input:focus,
+  textarea:focus {
+    background-color: hsla(0, 0%, 98%, 1);
+    outline: hsla(0, 0%, 10%, 1) auto 1px;
+  }
+  .name-row {
+    font-size: 0.574rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .first-name {
+    margin-right: 1.8rem;
+  }
+  .name-row label {
+    display: inline-block;
+  }
+  .submit {
+    font-size: 1.32rem;
+    font-variant: all-small-caps;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: hsla(0, 0%, 10%, 1);
+    color: #fff;
+    padding: 6px 16px 8px 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .submit:hover {
+    background-color: #555;
+  }
+</style>

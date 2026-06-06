@@ -1,0 +1,44 @@
+@import './typography-base.css';
+
+/* All fonts are self-hosted from /fonts (no third-party/CDN, no @fontsource at runtime).
+   Only the Latin subset is needed — this site's text is Latin + Chinese, and the Chinese
+   falls back to a system CJK font (Open Sans has no CJK glyphs). One file per weight, so
+   no unicode-range is needed. */
+
+/* Title: font-display: block keeps it hidden for a short beat while loading, rather than
+   flashing a fallback font and swapping (fine for a short logo; it's also preloaded). */
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('/fonts/yellowtail-latin-400.woff2') format('woff2');
+}
+
+/* Body (400), headings (600), emphasis/blockquote (300 italic). font-display: swap keeps
+   text readable during load; the 400/600 weights are preloaded so the swap is brief. */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/open-sans-latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/open-sans-latin-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/open-sans-latin-300-italic.woff2') format('woff2');
+}
+
+html {
+  letter-spacing: 0.02em;
+}

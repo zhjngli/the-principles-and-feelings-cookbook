@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Seo from '../../components/Seo.astro';
+import PostList from '../../components/PostList.astro';
+import { postSlug } from '../../lib/slugify';
+
+type Cat = 'recipes' | 'principles' | 'techniques';
+
+export async function getStaticPaths() {
+  const cats: Cat[] = ['recipes', 'principles', 'techniques'];
+  return cats.map((category) => ({ params: { category }, props: { category } }));
+}
+
+const { category } = Astro.props as { category: Cat };
+const entries = (await getCollection(category)).sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+const posts = entries.map((e) => ({ href: `/${category}/${postSlug(e.data.slug)}`, title: e.data.title }));
+---
+
+<Base title={category}>
+  <Seo slot="head" title={category} path={`/${category}`} />
+  <h1>{category}</h1>
+  <PostList posts={posts} />
+</Base>

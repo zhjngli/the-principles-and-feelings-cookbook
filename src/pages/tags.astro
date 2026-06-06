@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Seo from '../components/Seo.astro';
+import { slugify } from '../lib/slugify';
+
+const cats = ['recipes', 'principles', 'techniques'] as const;
+const counts = new Map<string, number>();
+for (const c of cats) {
+  for (const e of await getCollection(c)) {
+    for (const t of e.data.tags ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
+  }
+}
+const tags = [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<Base title="tags">
+  <Seo slot="head" title="tags" path="/tags" />
+  <h1>all tags</h1>
+  <ul>
+    {
+      tags.map(([tag, count]) => (
+        <li>
+          <a href={`/tags/${slugify(tag)}`}>
+            {tag} ({count})
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

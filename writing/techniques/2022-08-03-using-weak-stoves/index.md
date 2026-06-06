@@ -5,6 +5,7 @@ tags:
   - stove
 date: 2022-08-03T05:03:10.911Z
 ---
+
 As much as I'd like to use gas stoves all the time, or have a crazy outdoor burner, it's not always practical. And the place I'm currently at only has those super weak electric coils. Using a weak stove definitely won't replicate the sear or stir fry of a stronger stove, but there's a few things that could help.
 
 ## Use a heavier pan or wok

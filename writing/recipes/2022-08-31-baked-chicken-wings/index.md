@@ -7,6 +7,7 @@ tags:
   - meat
 date: 2022-08-31T07:16:44.417Z
 ---
+
 I like baking meat because it's so hands off. This sort of evolved from a baked chicken thighs recipe that I made all the time in college.
 
 ## Stuff you'll need

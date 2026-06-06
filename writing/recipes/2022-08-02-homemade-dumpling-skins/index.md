@@ -5,6 +5,7 @@ tags:
   - dumpling
 date: 2022-08-02T06:06:01.749Z
 ---
+
 Admittedly, this is a lot of work for dumpling skins. But the bite, chew, and texture you get from homemade skins is vastly different from the dried stuff in grocery stores.
 
 ## Stuff you'll need

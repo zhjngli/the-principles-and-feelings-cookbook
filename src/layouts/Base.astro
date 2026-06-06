@@ -10,8 +10,10 @@ const { title } = Astro.props;
 const siteTitle = 'the principles and feelings cookbook';
 const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const path = Astro.url.pathname;
+const year = new Date().getFullYear();
 const isActive = (base: string) => path === base || path.startsWith(base + '/');
 const navLinks = [
+  { href: '/menu', label: 'menu' },
   { href: '/principles', label: 'principles' },
   { href: '/recipes', label: 'recipes' },
   { href: '/techniques', label: 'techniques' },
@@ -28,9 +30,13 @@ const navLinks = [
     <link rel="preload" href="/fonts/open-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/open-sans-latin-600.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/icons/master-512.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#f0ead6" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-180.png" />
     <title>{browserTitle}</title>
     <slot name="head" />
     <Analytics />
+    <script is:inline src="/registerSW.js"></script>
   </head>
   <body>
     <div class="container">
@@ -46,12 +52,12 @@ const navLinks = [
               ))
             }
           </div>
-          <footer class="footer footer-sidebar">&copy; 2022.</footer>
+          <footer class="footer footer-sidebar">&copy; {year}.</footer>
         </nav>
       </header>
       <main class="main">
         <slot />
-        <footer class="footer footer-main">&copy; 2022.</footer>
+        <footer class="footer footer-main">&copy; {year}.</footer>
       </main>
     </div>
   </body>
@@ -78,7 +84,10 @@ const navLinks = [
   .nav-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    row-gap: 0.25rem;
   }
   .nav-link {
     padding: 0 0.9rem;
@@ -135,6 +144,7 @@ const navLinks = [
     .nav-links {
       flex-direction: column;
       align-items: flex-end;
+      row-gap: 0;
     }
     .nav-link {
       padding: 0.225rem 0;

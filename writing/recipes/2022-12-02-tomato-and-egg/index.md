@@ -6,6 +6,7 @@ tags:
   - egg
 date: 2022-12-02T08:30:52.475Z
 ---
+
 A quintessential Chinese dish. The secret to a good tomato and egg stir fry is ketchup, ask any Chinese mom or professional chef. All other twists and additions are pretty much creative liberties. It’s the same reason we like to add ketchup to scrambled eggs in those hole in the wall American diners that are so underrated.
 
 ## stuff you’ll need

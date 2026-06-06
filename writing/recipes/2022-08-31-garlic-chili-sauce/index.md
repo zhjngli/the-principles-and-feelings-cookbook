@@ -5,6 +5,7 @@ tags:
   - sauce
 date: 2022-08-31T07:26:33.735Z
 ---
+
 A pretty simple sauce that tastes great and works well for lots of savory meat dishes. You could probably make this in bulk and save it in the fridge.
 
 ## Stuff you'll need

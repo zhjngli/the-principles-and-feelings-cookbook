@@ -5,28 +5,29 @@ tags:
   - dumpling
 date: 2022-08-02T06:18:51.515Z
 ---
+
 It doesn't make sense to make [dumpling skins](/recipes/homemade-dumpling-skins) without some filling.
 
 ## Stuff you'll need
 
-* For the filling:
-  * ground pork or beef or lamb
-  * Chinese chives or cabbage
-  * (optional) shrimp
-  * (optional) mushroom
-  * (optional) carrot
-  * (optional) other stuff that might taste good
-* For the seasoning:
-  * cooking wine
-  * oil
-  * soy sauce
-  * salt
-  * MSG
-  * white pepper
-  * (optional) garlic and ginger
-  * (optional) other spices that go well with the meat
-* For folding dumplings:
-  * friends
+- For the filling:
+  - ground pork or beef or lamb
+  - Chinese chives or cabbage
+  - (optional) shrimp
+  - (optional) mushroom
+  - (optional) carrot
+  - (optional) other stuff that might taste good
+- For the seasoning:
+  - cooking wine
+  - oil
+  - soy sauce
+  - salt
+  - MSG
+  - white pepper
+  - (optional) garlic and ginger
+  - (optional) other spices that go well with the meat
+- For folding dumplings:
+  - friends
 
 ## Preparation
 
@@ -45,14 +46,15 @@ So, get all your ground meat, and stir it in one direction for a while using cho
 ### Adding the other stuff
 
 For the most part, you just need to chop up whatever ingredients you want to add really really finely, and fold it into the emulsified meat mixture. However, a few things to keep in mind:
+
 - Don't add too many ingredients. 3 ingredients including the meat is a good amount. Think about flavor profiles when combining these ingredients. Here are some classic combinations:
-    - Pork and cabbage
-    - Pork and Chinese chives
-    - Pork, shrimp, and Chinese chives
-    - Lamb, mushroom, carrot
+  - Pork and cabbage
+  - Pork and Chinese chives
+  - Pork, shrimp, and Chinese chives
+  - Lamb, mushroom, carrot
 - For ingredients that have a lot of water, you'll need to get that moisture out first, so that the resulting filling doesn't becoming a watery mess.
-    - For mushroom and carrot, you can chop it finely, and lightly fry them in some oil to sweat out the moisture.
-    - For cabbage, chop it finely, and toss it in salt to draw out the moisture. Then wring the cabbage dry before folding it into the meat.
+  - For mushroom and carrot, you can chop it finely, and lightly fry them in some oil to sweat out the moisture.
+  - For cabbage, chop it finely, and toss it in salt to draw out the moisture. Then wring the cabbage dry before folding it into the meat.
 
 ### Folding dumplings
 

@@ -7,6 +7,7 @@ tags:
   - feelings
 date: 2022-08-04T02:56:16.752Z
 ---
+
 If you've had any chance to study graphic design or paintings or art, you've probably come across color theory. The basic premise is that different color schemes bring about different emotions and balance the artwork in different ways. For example, one might use analogous colors like warm reds in a piece of art to evoke feelings of passion and fervor, or complementary colors to create drama and tension, or triadic colors to conjure boldness and confidence.
 
 I find that this is generally applicable to cooking as well. Not in the sense of plating my food to evoke emotions (this is directly applicable to color theory), but in the sense that ingredients often work together because the colors of the ingredients work together (in a color theoretic way). By no means is this scientifically rigorous, and it sounds ridiculous, but this has been a helpful rule of thumb when trying to combine ingredients at home.

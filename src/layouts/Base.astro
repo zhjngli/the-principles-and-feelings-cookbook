@@ -12,8 +12,8 @@ const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const path = Astro.url.pathname;
 const isActive = (base: string) => path === base || path.startsWith(base + '/');
 const navLinks = [
-  { href: '/principles', label: 'principles' },
   { href: '/menu', label: 'menu' },
+  { href: '/principles', label: 'principles' },
   { href: '/recipes', label: 'recipes' },
   { href: '/techniques', label: 'techniques' },
   { href: '/tags', label: 'tags' }

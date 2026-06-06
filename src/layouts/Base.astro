@@ -10,6 +10,7 @@ const { title } = Astro.props;
 const siteTitle = 'the principles and feelings cookbook';
 const browserTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const path = Astro.url.pathname;
+const year = new Date().getFullYear();
 const isActive = (base: string) => path === base || path.startsWith(base + '/');
 const navLinks = [
   { href: '/menu', label: 'menu' },
@@ -47,12 +48,12 @@ const navLinks = [
               ))
             }
           </div>
-          <footer class="footer footer-sidebar">&copy; 2022.</footer>
+          <footer class="footer footer-sidebar">&copy; {year}.</footer>
         </nav>
       </header>
       <main class="main">
         <slot />
-        <footer class="footer footer-main">&copy; 2022.</footer>
+        <footer class="footer footer-main">&copy; {year}.</footer>
       </main>
     </div>
   </body>

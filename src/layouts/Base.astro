@@ -1,8 +1,13 @@
 ---
-import '@fontsource/open-sans/400.css';
-import '@fontsource/open-sans/600.css';
-import '@fontsource/open-sans/300.css';
-import '@fontsource/open-sans/300-italic.css';
+// Only the Latin subsets of the weights actually used: 400 (body), 600 (headings),
+// and 300-italic (emphasis/blockquotes). Avoids shipping the ~56 other-script subset
+// files that browsers never download for this site's text.
+import '@fontsource/open-sans/latin-400.css';
+import '@fontsource/open-sans/latin-ext-400.css';
+import '@fontsource/open-sans/latin-600.css';
+import '@fontsource/open-sans/latin-ext-600.css';
+import '@fontsource/open-sans/latin-300-italic.css';
+import '@fontsource/open-sans/latin-ext-300-italic.css';
 import '../styles/global.css';
 import Title from '../components/Title.astro';
 import Analytics from '../components/Analytics.astro';

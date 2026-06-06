@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Chicken Wings",
+          "description": "Crispy, savory baked wings.",
+          "recipe": "recipes/baked-chicken-wings"
+        },
+        {
+          "name": "Tomato and Egg",
+          "description": "Comfort food classic, equally good over rice or noodles.",
+          "recipe": "recipes/tomato-and-egg"
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Pork and Lotus Root Soup",
+          "description": "Slow-simmered, warming.",
+          "recipe": "recipes/pork-lotus-root-soup"
+        }
+      ]
+    },
+    {
+      "name": "Noodles",
+      "items": [
+        {
+          "name": "Hand-pulled Noodles",
+          "description": "Chewy, hand-stretched, made fresh.",
+          "recipe": "recipes/hand-pulled-noodles"
+        },
+        {
+          "name": "Old Buddy Noodles",
+          "description": "A weeknight favorite.",
+          "recipe": "recipes/old-buddy-noodles"
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        {
+          "name": "Oven-baked Salmon",
+          "description": "Simple, light, mostly hands-off.",
+          "recipe": "recipes/oven-baked-salmon"
+        },
+        {
+          "name": "Steamed Lobster",
+          "description": "Sweet, clean, special-occasion.",
+          "recipe": "recipes/steamed-lobster"
+        },
+        {
+          "name": "Chestnut Braised Chicken",
+          "description": "Comforting, slightly sweet.",
+          "recipe": "recipes/chestnut-braised-chicken"
+        },
+        {
+          "name": "Dumplings",
+          "description": "Hand-folded, served with dipping sauce.",
+          "recipe": "recipes/cooking-dumplings"
+        }
+      ]
+    }
+  ]
+}

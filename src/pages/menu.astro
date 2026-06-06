@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import menu from '../data/menu.json';
+import Base from '../layouts/Base.astro';
+import Seo from '../components/Seo.astro';
+import { postSlug } from '../lib/slugify';
+
+// Build-time validation: every item's `recipe` must resolve to a real recipe URL,
+// e.g. "recipes/baked-chicken-wings". A bad reference throws, which fails the build
+// with a clear message — no dead links ship to production.
+const recipes = await getCollection('recipes');
+const validRecipePaths = new Set(recipes.map((r) => `recipes/${postSlug(r.data.slug)}`));
+for (const section of menu.sections) {
+  for (const item of section.items) {
+    if (item.recipe && !validRecipePaths.has(item.recipe)) {
+      throw new Error(
+        `Menu item "${item.name}" references unknown recipe "${item.recipe}". Fix it in src/data/menu.json.`
+      );
+    }
+  }
+}
+---
+
+<Base title="menu">
+  <Seo slot="head" title="menu" path="/menu" />
+  <h1>menu</h1>
+  <p class="menu-intro">A few things I'd happily make if you're coming over. Ask for whatever sounds good.</p>
+  {
+    menu.sections.map((section) => (
+      <section class="menu-section">
+        <h2>{section.name}</h2>
+        <ul class="menu-items">
+          {section.items.map((item) => (
+            <li class="menu-item">
+              <span class="menu-item-name">
+                {item.recipe ? <a href={`/${item.recipe}`}>{item.name}</a> : item.name}
+              </span>
+              <span class="menu-item-desc">{item.description}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Base>
+
+<style>
+  .menu-intro {
+    color: hsla(0, 0%, 50%, 1);
+    margin-bottom: 1.8rem;
+  }
+  .menu-section {
+    margin-bottom: 1.8rem;
+  }
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-item {
+    margin: 0.9rem 0;
+  }
+  .menu-item-name {
+    display: block;
+    font-weight: 600;
+  }
+  .menu-item-desc {
+    display: block;
+    color: hsla(0, 0%, 50%, 1);
+    font-size: 0.841rem;
+  }
+</style>

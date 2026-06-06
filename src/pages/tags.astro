@@ -17,15 +17,34 @@ const tags = [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 <Base title="tags">
   <Seo slot="head" title="tags" path="/tags" />
   <h1>all tags</h1>
-  <ul>
+  <p class="tags">
     {
-      tags.map(([tag, count]) => (
-        <li>
-          <a href={`/tags/${slugify(tag)}`}>
-            {tag} ({count})
-          </a>
-        </li>
+      tags.map(([tag, count], i) => (
+        <>
+          <span class="tag">
+            <a href={`/tags/${slugify(tag)}`}>
+              {tag} ({count})
+            </a>
+            {i < tags.length - 1 && (
+              <span class="sep" aria-hidden="true">
+                ·
+              </span>
+            )}
+          </span>{' '}
+        </>
       ))
     }
-  </ul>
+  </p>
 </Base>
+
+<style>
+  .tag {
+    white-space: nowrap;
+  }
+  .sep {
+    margin: 0 0.1rem;
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: hsla(0, 0%, 45%, 1);
+  }
+</style>

@@ -1,5 +1,16 @@
 @import './typography-base.css';
 
+/* Self-hosted title font (preloaded in the document head). font-display: block keeps
+   the title text hidden for a short beat while the font loads, instead of flashing a
+   fallback font and then swapping. */
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('/fonts/yellowtail-latin-400.woff2') format('woff2');
+}
+
 html {
   letter-spacing: 0.02em;
 }

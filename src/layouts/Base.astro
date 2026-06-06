@@ -1,18 +1,4 @@
 ---
-// Only the Latin subsets of the weights actually used: 400 (body), 600 (headings),
-// and 300-italic (emphasis/blockquotes). Avoids shipping the ~56 other-script subset
-// files that browsers never download for this site's text.
-import '@fontsource/open-sans/latin-400.css';
-import '@fontsource/open-sans/latin-ext-400.css';
-import '@fontsource/open-sans/latin-600.css';
-import '@fontsource/open-sans/latin-ext-600.css';
-import '@fontsource/open-sans/latin-300-italic.css';
-import '@fontsource/open-sans/latin-ext-300-italic.css';
-// Resolve the hashed URLs of the two most-used Latin weights so we can preload them
-// (Vite returns the same hashed file the @font-face rules above reference). Body keeps
-// font-display: swap, but preloading means the swap is over before it's noticeable.
-import openSans400 from '@fontsource/open-sans/files/open-sans-latin-400-normal.woff2';
-import openSans600 from '@fontsource/open-sans/files/open-sans-latin-600-normal.woff2';
 import '../styles/global.css';
 import Title from '../components/Title.astro';
 import Analytics from '../components/Analytics.astro';
@@ -39,8 +25,8 @@ const navLinks = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preload" href="/fonts/yellowtail-latin-400.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href={openSans400} as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href={openSans600} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/open-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/open-sans-latin-600.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/icons/master-512.png" />
     <title>{browserTitle}</title>
     <slot name="head" />

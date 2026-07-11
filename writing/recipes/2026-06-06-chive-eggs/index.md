@@ -24,4 +24,4 @@ Clean the chives and slice them into 1 - 1.5 inch slivers. Heat up your wok real
 
 ## notes
 
-I don't know, it's surprisingly good and easy. Probably has some decent nutrition and fiber from the chives, and good aroma, and also has good nutrition and protein from the eggs too.
+I don't know, it's surprisingly good and easy. Probably has some decent nutrition and fiber from the chives, and good aroma, and also has good nutrition and protein from the eggs too. The ratio of eggs to chives should be derived from your [feelings](/principles/cooking-with-feelings) too. It's sort of up to you what you like more and want to emphasize more in the dish.

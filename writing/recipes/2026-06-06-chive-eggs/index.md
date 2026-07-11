@@ -1,5 +1,5 @@
 ---
-title: chive and eggs
+title: Chive and Eggs
 slug: chive-eggs
 tags:
   - chives

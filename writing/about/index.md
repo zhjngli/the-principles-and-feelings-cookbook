@@ -2,25 +2,35 @@
 title: 'about'
 ---
 
-This is a poorly written, disorganized, and mostly useless cookbook. There will be no measurements provided, cause everything is by [feeling](/principles/cooking-with-feelings). Because getting 90% of the way there with 10% of the effort is worthwhile 200% of the time. The focus is mostly on Chinese dishes, since that's what I primarily cook, but the principles and techniques I hope are generally applicable.
+This is a poorly written, disorganized, and probably useless cookbook. There will be no measurements provided, because [cooking with feelings](/principles/cooking-with-feelings) is the best way to cook.
 
-## what's the motivation for writing this?
+These are essentially the notes and intuitions of a Chinese home cook, who learned through osmosis, by watching my mom in the kitchen. Other recipes or principles are adapted from watching YouTube chefs cook and talk about the philosophies and techniques they adhere to.
 
-My wife thinks I cook pretty well, and so do other people who've had my food. But it's hard for me to give out recipes because I basically have none, I just have broad strokes of what to do when making a dish. So, I've compiled my style, laziness, and experiences as a homecook for the past few years into this blunt cookbook.
+<hr />
 
-## who is this for?
+## FAQ
+
+### what's the motivation for creating this?
+
+For fun, really. I have no expectations that this will be helpful in any way. But maybe sharing some recipes and my own intuitions allows others to build their own intuition for cooking as well.
+
+### can i try your food?
+
+Sure, check out the [menu](/menu) page for additional details.
+
+### who is this for?
 
 1. Anyone who doesn't have measuring tools in the kitchen
 1. Anyone who is lazy
 1. Anyone who only needs food that's good enough most of the time
 
-## who isn't this for?
+### who isn't this for?
 
 1. Anyone trying to be a serious cook
 1. Anyone who enjoys cooking
 1. Anyone who actually needs to learn something
 
-## how should you go about reading this cookbook?
+### how should i read this cookbook?
 
 1. Start with [cooking with feelings](/principles/cooking-with-feelings). This sets the stage for the rest of the book and will help you determine whether you will find the cookbook legitimately useful.
 1. After that, check out some more [principles](/principles). These principles help you get a better grasp of overall cooking (hopefully).
@@ -30,6 +40,6 @@ My wife thinks I cook pretty well, and so do other people who've had my food. Bu
 
 <hr />
 
-If you're sticking around to read after dealing with all that sarcasm, I'm truly honored&mdash;thank you so much! If you gain something valuable after all the rambling about [feelings](/principles/cooking-with-feelings), I'm honestly surprised&mdash;consider buying me some food via Venmo: @Zhijiang-Li.
+If you're sticking around to read after dealing with this junk, I'm truly honored&mdash;thank you?! If you gain something valuable after all the rambling about [feelings](/principles/cooking-with-feelings), I'm honestly surprised&mdash;consider buying me some food via Venmo: @Zhijiang-Li.
 
 Also, feel free to [contact me](/contact)! Or submit a bug on [github](https://github.com/zhjngli/the-principles-and-feelings-cookbook).

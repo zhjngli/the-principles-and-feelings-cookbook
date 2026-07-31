@@ -5,6 +5,7 @@ tags:
   - stir-fry
 date: 2026-06-23T00:20:00.000-05:00
 ---
+
 Some thoughts of how to stir-fry. I really think this is such a core technique of the Chinese home cook. You'll never achieve the high BTU of a professional kitchen stove, but there are ways to approximate the effect without using obscene amounts of oil and lighting your kitchen on fire.
 
 The goal of a stir-fry is to extract moisture from the food as quickly as possible while also infusing the flavors of the food with spices, aromatics, and sauces, without spending too much time in the wok.

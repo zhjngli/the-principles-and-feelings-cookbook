@@ -6,15 +6,16 @@ tags:
   - eggs
 date: 2026-06-06T15:46:00.000-07:00
 ---
+
 It's only two ingredients but somehow it's so good. Fragrant and aromatic because of the chives, and also has a strong but different kind of allure and aroma cause of the eggs.
 
 ## stuff you'll need
 
-* chives
-* eggs
-* salt, oil, MSG, white pepper, but if you don't have these things why are you even here
-* (optionally) some cooking wine
-* (optionally) some sesame oil
+- chives
+- eggs
+- salt, oil, MSG, white pepper, but if you don't have these things why are you even here
+- (optionally) some cooking wine
+- (optionally) some sesame oil
 
 ## preparation
 

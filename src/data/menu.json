@@ -1,67 +1,116 @@
 {
   "sections": [
     {
-      "name": "Appetizers",
-      "items": [
-        {
-          "name": "Chicken Wings",
-          "description": "Crispy, savory baked wings.",
-          "recipe": "recipes/baked-chicken-wings"
-        },
-        {
-          "name": "Tomato and Egg",
-          "description": "Comfort food classic, equally good over rice or noodles.",
-          "recipe": "recipes/tomato-and-egg"
-        }
-      ]
-    },
-    {
       "name": "Soups",
       "items": [
         {
           "name": "Pork and Lotus Root Soup",
-          "description": "Slow-simmered, warming.",
           "recipe": "recipes/pork-lotus-root-soup"
+        },
+        {
+          "name": "Oxtail Soup",
+          "description": "Oxtail, tomatoes, potatoes, onions"
+        },
+        {
+          "name": "Wintermelon Soup",
+          "description": "Wintermelon, kelp, pork ribs"
         }
       ]
     },
     {
-      "name": "Noodles",
+      "name": "Dishes with carbs that aren't just cooked rice",
       "items": [
-        {
-          "name": "Hand-pulled Noodles",
-          "description": "Chewy, hand-stretched, made fresh.",
-          "recipe": "recipes/hand-pulled-noodles"
-        },
         {
           "name": "Old Buddy Noodles",
-          "description": "A weeknight favorite.",
+          "description": "Savory, sour, spicy, funky",
           "recipe": "recipes/old-buddy-noodles"
-        }
-      ]
-    },
-    {
-      "name": "Mains",
-      "items": [
-        {
-          "name": "Oven-baked Salmon",
-          "description": "Simple, light, mostly hands-off.",
-          "recipe": "recipes/oven-baked-salmon"
         },
         {
-          "name": "Steamed Lobster",
-          "description": "Sweet, clean, special-occasion.",
-          "recipe": "recipes/steamed-lobster"
+          "name": "Dan Dan Noodles",
+          "description": "Spicy, savory, nutty. Ground pork, peanuts, peppercorns, chili oil"
         },
         {
-          "name": "Chestnut Braised Chicken",
-          "description": "Comforting, slightly sweet.",
-          "recipe": "recipes/chestnut-braised-chicken"
+          "name": "Stir fry rice noodles",
+          "description": "Chow fun with stuff like peppers, chives, onions, or whatever I feel like"
         },
         {
           "name": "Dumplings",
-          "description": "Hand-folded, served with dipping sauce.",
           "recipe": "recipes/cooking-dumplings"
+        },
+        {
+          "name": "Chinese Sticky Rice",
+          "description": "Glutinous rice, mushrooms, Chinese sausage, dried shrimp, soy sauce, chicken stock, garlic, green onion, and other savory things"
+        }
+      ]
+    },
+    {
+      "name": "Meats",
+      "items": [
+        {
+          "name": "Baked Chicken Wings",
+          "recipe": "recipes/baked-chicken-wings"
+        },
+        {
+          "name": "Chestnut Braised Chicken",
+          "description": "Chicken wings, chestnuts, shiitake mushrooms",
+          "recipe": "recipes/chestnut-braised-chicken"
+        },
+        {
+          "name": "Chicken stir fry thing",
+          "description": "Chicken thighs, zucchini, mushrooms, chili oil"
+        },
+        {
+          "name": "Beef Stir Fry",
+          "description": "Beef, onions, mushrooms"
+        },
+        {
+          "name": "Pan fried tilapia with some random sauce",
+          "description": "Tilapia, brown sauce, aji amarillo sauce, mushrooms, peppers"
+        },
+        {
+          "name": "Steamed Lobster",
+          "recipe": "recipes/steamed-lobster"
+        },
+        {
+          "name": "Steamed Fish"
+        },
+        {
+          "name": "Fish in tomato garlic sauce",
+          "description": "I don't know where this came from but it's not bad"
+        },
+        {
+          "name": "Oven-baked Salmon",
+          "recipe": "recipes/oven-baked-salmon"
+        }
+      ]
+    },
+    {
+      "name": "Veggies",
+      "items": [
+        {
+          "name": "Tomato and Egg",
+          "recipe": "recipes/tomato-and-egg"
+        },
+        {
+          "name": "Chive and Eggs",
+          "recipe": "recipes/chive-eggs"
+        },
+        {
+          "name": "Seasonal veggies",
+          "description": "Garlic stir fry. Yam leaves, ong choy, bok choy, cabbage, pea sprouts, a choy, etc.",
+          "recipe": "recipes/veggie-stir-fry-template"
+        },
+        {
+          "name": "Eggplant",
+          "description": "Eggplant, garlic, bean paste, vinegar, soy sauce"
+        },
+        {
+          "name": "Bittermelon",
+          "description": "Savory, slightly bitter, funky"
+        },
+        {
+          "name": "Cucumber Salad",
+          "description": "Cucumbers, vinegar, chili oil"
         }
       ]
     }

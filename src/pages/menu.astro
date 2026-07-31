@@ -24,8 +24,8 @@ for (const section of menu.sections) {
   <Seo slot="head" title="menu" path="/menu" />
   <h1>menu</h1>
   <p class="menu-intro">
-    Some things that I've made before. Not everything follows the recipe exactly, we cook with
-    <a href="/principles/cooking-with-feelings">feelings</a> here. If you'd like to try something let me know ~1 week in advance
+    Some things that I've made at home. Not everything follows the recipe exactly, we cook with
+    <a href="/principles/cooking-with-feelings">feelings</a> here. If you'd like to try something let me know 1 week in advance
     so I can get the ingredients.
   </p>
   {
@@ -38,7 +38,12 @@ for (const section of menu.sections) {
               <span class="menu-item-name">
                 {item.recipe ? <a href={`/${item.recipe}`}>{item.name}</a> : item.name}
               </span>
-              {item.description && <span class="menu-item-desc">{item.description}</span>}
+              {item.description && (
+                <>
+                  {' - '}
+                  <span class="menu-item-desc">{item.description}</span>
+                </>
+              )}
             </li>
           ))}
         </ul>
@@ -49,11 +54,16 @@ for (const section of menu.sections) {
 
 <style>
   .menu-intro {
-    color: hsla(0, 0%, 50%, 1);
+    color: inherit;
     margin-bottom: 1.8rem;
   }
   .menu-section {
-    margin-bottom: 1.8rem;
+    border-top: 2px solid hsla(0, 0%, 80%, 1);
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+  }
+  .menu-section h2 {
+    margin-bottom: 2.5rem;
   }
   .menu-items {
     list-style: none;
@@ -61,15 +71,26 @@ for (const section of menu.sections) {
     margin: 0;
   }
   .menu-item {
-    margin: 0.9rem 0;
+    margin: 0;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
   }
   .menu-item-name {
-    display: block;
+    display: inline;
     font-weight: 600;
+    line-height: 1.55;
+  }
+  .menu-item-name a {
+    color: inherit;
+    border-bottom: 0;
+  }
+  .menu-item-name a:hover {
+    color: #d70c0c;
+    border-bottom: 0;
   }
   .menu-item-desc {
-    display: block;
+    display: inline;
     color: hsla(0, 0%, 50%, 1);
     font-size: 0.841rem;
+    line-height: 1.55;
   }
 </style>

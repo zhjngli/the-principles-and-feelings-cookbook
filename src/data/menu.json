@@ -9,7 +9,7 @@
         },
         {
           "name": "Oxtail Soup",
-          "description": "Oxtail, tomatoes, onions"
+          "description": "Oxtail, tomatoes, potatoes, onions"
         },
         {
           "name": "Wintermelon Soup",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "name": "Dishes with carbs that aren't rice",
+      "name": "Dishes with carbs that aren't just cooked rice",
       "items": [
         {
           "name": "Old Buddy Noodles",
@@ -36,6 +36,10 @@
         {
           "name": "Dumplings",
           "recipe": "recipes/cooking-dumplings"
+        },
+        {
+          "name": "Chinese Sticky Rice",
+          "description": "Glutinous rice, mushrooms, Chinese sausage, dried shrimp, soy sauce, chicken stock, garlic, green onion, and other savory things"
         }
       ]
     },

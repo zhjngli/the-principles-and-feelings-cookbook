@@ -2,9 +2,10 @@ backend:
   name: github
   repo: zhjngli/the-principles-and-feelings-cookbook
   branch: main
-  publish_mode: editorial_workflow
 
-media_folder: static/assets
+publish_mode: editorial_workflow
+
+media_folder: public/assets
 public_folder: /assets
 
 collections:

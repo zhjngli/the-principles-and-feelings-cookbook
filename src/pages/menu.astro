@@ -5,24 +5,16 @@ import Base from '../layouts/Base.astro';
 import Seo from '../components/Seo.astro';
 import { postSlug } from '../lib/slugify';
 
-// Temporary "coming soon" mode. To launch the full menu: finalize src/data/menu.json
-// and flip this to false. While true, the menu data + recipe-reference validation
-// below are skipped, so editing/renaming recipes can't break the build via the menu.
-const COMING_SOON = true;
-
-if (!COMING_SOON) {
-  // Build-time validation: every item's `recipe` must resolve to a real recipe URL,
-  // e.g. "recipes/baked-chicken-wings". A bad reference throws, which fails the build
-  // with a clear message — no dead links ship to production.
-  const recipes = await getCollection('recipes');
-  const validRecipePaths = new Set(recipes.map((r) => `recipes/${postSlug(r.data.slug)}`));
-  for (const section of menu.sections) {
-    for (const item of section.items) {
-      if (item.recipe && !validRecipePaths.has(item.recipe)) {
-        throw new Error(
-          `Menu item "${item.name}" references unknown recipe "${item.recipe}". Fix it in src/data/menu.json.`
-        );
-      }
+// Build-time validation: every provided `recipe` must resolve to a real recipe URL,
+// e.g. "recipes/baked-chicken-wings". Items without recipe links are allowed.
+const recipes = await getCollection('recipes');
+const validRecipePaths = new Set(recipes.map((r) => `recipes/${postSlug(r.data.slug)}`));
+for (const section of menu.sections) {
+  for (const item of section.items) {
+    if (item.recipe && !validRecipePaths.has(item.recipe)) {
+      throw new Error(
+        `Menu item "${item.name}" references unknown recipe "${item.recipe}". Fix it in src/data/menu.json.`
+      );
     }
   }
 }
@@ -31,31 +23,27 @@ if (!COMING_SOON) {
 <Base title="menu">
   <Seo slot="head" title="menu" path="/menu" />
   <h1>menu</h1>
+  <p class="menu-intro">
+    Some things that I've made before. Not everything follows the recipe exactly, we cook with
+    <a href="/principles/cooking-with-feelings">feelings</a> here. If you'd like to try something let me know ~1 week in advance
+    so I can get the ingredients.
+  </p>
   {
-    COMING_SOON ? (
-      <p class="menu-intro">
-        Coming soon — a little menu of dishes I'd happily make if you're coming over. Check back!
-      </p>
-    ) : (
-      <>
-        <p class="menu-intro">Some things that I've made before. Not everything follows the recipe exactly, we cook with [feelings](/principles/cooking-with-feelings) here. If you'd like to try something let me know ~1 week in advance so I can get the ingredients.</p>
-        {menu.sections.map((section) => (
-          <section class="menu-section">
-            <h2>{section.name}</h2>
-            <ul class="menu-items">
-              {section.items.map((item) => (
-                <li class="menu-item">
-                  <span class="menu-item-name">
-                    {item.recipe ? <a href={`/${item.recipe}`}>{item.name}</a> : item.name}
-                  </span>
-                  <span class="menu-item-desc">{item.description}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
-      </>
-    )
+    menu.sections.map((section) => (
+      <section class="menu-section">
+        <h2>{section.name}</h2>
+        <ul class="menu-items">
+          {section.items.map((item) => (
+            <li class="menu-item">
+              <span class="menu-item-name">
+                {item.recipe ? <a href={`/${item.recipe}`}>{item.name}</a> : item.name}
+              </span>
+              {item.description && <span class="menu-item-desc">{item.description}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
   }
 </Base>
 

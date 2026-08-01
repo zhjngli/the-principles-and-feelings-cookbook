@@ -35,6 +35,7 @@
         },
         {
           "name": "Dumplings",
+          "description": "Seasonal. Ground pork, chives",
           "recipe": "recipes/cooking-dumplings"
         },
         {
@@ -64,11 +65,20 @@
           "description": "Beef, onions, mushrooms"
         },
         {
+          "name": "Steak but kinda Chinese",
+          "description": "Seasonal. Broad bean paste, garlic, chili flake, sichuan peppercorns"
+        },
+        {
+          "name": "Standing rib roast but kinda Chinese",
+          "description": "Seasonal. Broad bean paste, garlic, chili flake, sichuan peppercorns"
+        },
+        {
           "name": "Pan fried tilapia with some random sauce",
           "description": "Tilapia, brown sauce, aji amarillo sauce, mushrooms, peppers"
         },
         {
           "name": "Steamed Lobster",
+          "description": "Seasonal. With garlic and chili oil sauce",
           "recipe": "recipes/steamed-lobster"
         },
         {

@@ -20,16 +20,20 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: false }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - name: 'menu'
-        label: 'menu page'
+      - name: 'menu_page'
+        label: 'menu page copy'
+        file: 'writing/menu/index.md'
+        editor:
+          preview: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', required: false }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: 'menu_items'
+        label: 'menu items'
         file: 'src/data/menu.json'
         editor:
           preview: false
         fields:
-          - label: 'Intro'
-            name: 'intro'
-            widget: 'text'
-            hint: 'HTML is allowed for links, e.g. <a href="/principles/cooking-with-feelings">feelings</a>.'
           - label: 'Sections'
             name: 'sections'
             widget: 'list'

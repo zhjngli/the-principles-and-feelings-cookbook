@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import menu from '../data/menu.json';
 import Base from '../layouts/Base.astro';
 import Seo from '../components/Seo.astro';
@@ -7,6 +7,10 @@ import { postSlug } from '../lib/slugify';
 
 // Build-time validation: every provided `recipe` must resolve to a real recipe URL,
 // e.g. "recipes/baked-chicken-wings". Items without recipe links are allowed.
+const menuPageEntries = await getCollection('menuPage');
+const menuPage = menuPageEntries[0];
+const { Content: MenuIntro } = await render(menuPage);
+
 const recipes = await getCollection('recipes');
 const validRecipePaths = new Set(recipes.map((r) => `recipes/${postSlug(r.data.slug)}`));
 for (const section of menu.sections) {
@@ -23,7 +27,9 @@ for (const section of menu.sections) {
 <Base title="menu">
   <Seo slot="head" title="menu" path="/menu" />
   <h1>menu</h1>
-  <p class="menu-intro" set:html={menu.intro} />
+  <div class="menu-intro">
+    <MenuIntro />
+  </div>
   {
     menu.sections.map((section) => (
       <section class="menu-section">

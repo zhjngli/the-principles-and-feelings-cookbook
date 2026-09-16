@@ -23,11 +23,7 @@ for (const section of menu.sections) {
 <Base title="menu">
   <Seo slot="head" title="menu" path="/menu" />
   <h1>menu</h1>
-  <p class="menu-intro">
-    Come eat and hang out! These are some things that I've made at home. Not everything follows the recipe exactly, we
-    cook with <a href="/principles/cooking-with-feelings">feelings</a> here. If you'd like to try something let me know 1
-    week in advance so I can get the ingredients.
-  </p>
+  <p class="menu-intro" set:html={menu.intro} />
   {
     menu.sections.map((section) => (
       <section class="menu-section">

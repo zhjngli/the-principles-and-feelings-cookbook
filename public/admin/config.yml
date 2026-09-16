@@ -9,6 +9,45 @@ media_folder: public/assets
 public_folder: /assets
 
 collections:
+  - name: 'site_pages'
+    label: 'site pages'
+    files:
+      - name: 'home'
+        label: 'home page'
+        file: 'writing/about/index.md'
+        editor:
+          preview: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', required: false }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: 'menu'
+        label: 'menu page'
+        file: 'src/data/menu.json'
+        editor:
+          preview: false
+        fields:
+          - label: 'Intro'
+            name: 'intro'
+            widget: 'text'
+            hint: 'HTML is allowed for links, e.g. <a href="/principles/cooking-with-feelings">feelings</a>.'
+          - label: 'Sections'
+            name: 'sections'
+            widget: 'list'
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - label: 'Items'
+                name: 'items'
+                widget: 'list'
+                fields:
+                  - { label: 'Name', name: 'name', widget: 'string' }
+                  - { label: 'Description', name: 'description', widget: 'string', required: false }
+                  - {
+                      label: 'Recipe path',
+                      name: 'recipe',
+                      widget: 'string',
+                      required: false,
+                      hint: 'Optional path like recipes/baked-chicken-wings'
+                    }
   - name: 'recipes'
     label: 'recipe'
     folder: 'writing/recipes'

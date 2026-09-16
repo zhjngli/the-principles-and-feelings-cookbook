@@ -18,6 +18,15 @@ For fun, really. I have no expectations that this will be helpful in any way. Bu
 
 Sure, check out the [menu](/menu) page for additional details.
 
+### where are the pictures?
+
+Quite a few people have asked me for pictures. I don't have photos because it violates 2 key tenets of this cookbook:
+
+1. I'm too lazy, this cookbook cannot be a burden on me
+2. Pictures would be helpful, this cookbook should not be helpful
+
+That said... pictures might be coming soon™.
+
 ### who is this for?
 
 1. Anyone who doesn't have measuring tools in the kitchen

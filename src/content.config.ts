@@ -29,4 +29,9 @@ const about = defineCollection({
   schema: z.object({ title: z.string().optional(), slug: z.string().optional(), date: z.coerce.date().optional() })
 });
 
-export const collections = { recipes, principles, techniques, about };
+const menuPage = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './writing/menu' }),
+  schema: z.object({ title: z.string().optional() })
+});
+
+export const collections = { recipes, principles, techniques, about, menuPage };

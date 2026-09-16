@@ -13,6 +13,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "clean": "rm -rf dist .astro .cache",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "prettier --write src writing"
